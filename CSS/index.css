@@ -1,5 +1,5 @@
 body {
-  width: 1500px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -19,7 +19,7 @@ nav {
 
 .gheader {grid-area: gheader; }
 .gToC {grid-area: gToC; }
-.gcontent {grid-area: gcontent; }
+.gcontent {grid-area: gcontent; width: auto;}
 
 h1, h2, h3, h4, h5, h6 {
   color: #444444;
