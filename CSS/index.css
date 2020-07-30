@@ -31,10 +31,12 @@ tr:nth-child(even) {
 
 th, td {
   padding: 8px;
+  text-align: center
 }
 
 th {
   text-align: center;
+  border: 1px solid white;
   background-color: black;
   color: white;
 }
