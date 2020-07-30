@@ -31,6 +31,8 @@ th, td {
 
 th {
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .bg-steel {
