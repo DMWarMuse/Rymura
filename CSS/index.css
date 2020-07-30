@@ -21,6 +21,14 @@ ul {
   margin: 0;
 }
 
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
 .bg-steel {
   background-color: #5F788A;
 }
