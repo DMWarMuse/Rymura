@@ -30,25 +30,27 @@ ul {
   margin: 0;
 }
 
-table, th, td {
-  border: 1px solid black;
-}
+/* Start Table CSS */
+      table, th, td {
+        border: 1px solid black;
+      }
 
-tr:nth-child(even) {
-  background: #cccccc;
-}
+      tr:nth-child(even) {
+        background: #cccccc;
+      }
 
-th, td {
-  padding: 8px;
-  text-align: center
-}
+      th, td {
+        padding: 8px;
+        text-align: center
+      }
 
-th {
-  text-align: center;
-  border: 1px solid white;
-  background-color: black;
-  color: white;
-}
+      th {
+        text-align: center;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+      }
+/* end Table CSS */
 
 .bg-steel {
   background-color: #5F788A;
