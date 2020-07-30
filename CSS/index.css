@@ -1,9 +1,9 @@
 body {
   display: grid;
   grid-template-areas:
-  '.... gheader gheader gheader gheader ....'
-  '.... gToC gcontent gcontent gcontent ....'
-  '.... gToC gcontent gcontent gcontent ....';
+  '. gheader gheader gheader gheader .'
+  '. gToC gcontent gcontent gcontent .'
+  '. gToC gcontent gcontent gcontent .';
   background: #fafafa;
   color: #333333;
   margin-top: 5rem;
