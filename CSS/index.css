@@ -25,6 +25,10 @@ table, th, td {
   border: 1px solid black;
 }
 
+tr:nth-child(odd) {
+  background: green;
+}
+
 th, td {
   padding: 15px;
 }
