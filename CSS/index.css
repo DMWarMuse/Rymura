@@ -1,13 +1,12 @@
 body {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
   'gheader gheader gheader gheader'
   'gToC gcontent gcontent gcontent'
   'gToC gcontent gcontent gcontent';
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   background: #fafafa;
   color: #333333;
   margin-top: 4rem;
