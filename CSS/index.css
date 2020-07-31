@@ -1,15 +1,14 @@
 body {
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
   'gheader gheader gheader gheader'
   'gToC gcontent gcontent gcontent'
   'gToC gcontent gcontent gcontent';
+  grid-gap: 0px 10px;
   background: #fafafa;
   color: #333333;
   margin-top: 4rem;
-  padding: 50px 0px 50px 50px;
 }
 
 img {
