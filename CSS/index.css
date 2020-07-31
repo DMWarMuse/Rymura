@@ -1,5 +1,5 @@
 body {
-  width: 1000px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -7,6 +7,7 @@ body {
   'gheader gheader gheader gheader'
   'gToC gcontent gcontent gcontent'
   'gToC gcontent gcontent gcontent';
+  grid-template-columns: 10% auto auto auto;
   background: #fafafa;
   color: #333333;
   margin-top: 4rem;
