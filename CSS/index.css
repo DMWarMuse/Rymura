@@ -5,7 +5,8 @@ body {
   'gheader gheader gheader gheader'
   'gToC gcontent gcontent gcontent'
   'gToC gcontent gcontent gcontent';
-  grid-gap: 0px 10px;
+  grid-gap: 0px 25px;
+  padding: 0 10%;
   background: #fafafa;
   color: #333333;
   margin-top: 4rem;
