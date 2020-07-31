@@ -7,7 +7,7 @@ body {
   'gheader gheader gheader gheader'
   'gToC gcontent gcontent gcontent'
   'gToC gcontent gcontent gcontent';
-  grid-template-columns: 10% auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background: #fafafa;
   color: #333333;
   margin-top: 4rem;
