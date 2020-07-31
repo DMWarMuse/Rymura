@@ -25,13 +25,16 @@ img {
 header {
  text-align: center; 
 }
-/*
+
 nav[data-toggle='toc'] .nav .nav {
  display: block;
-}*/
+}
 
 .gheader {grid-area: gheader; }
-.gToC {grid-area: gToC; }
+.gToC {
+  grid-area: gToC;
+  overflow-y:scroll;
+}
 .gcontent {
   grid-area: gcontent; width: auto;
   overflow-y:scroll;
