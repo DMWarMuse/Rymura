@@ -18,6 +18,10 @@ img {
  height: auto;
 }
 
+header {
+ text-align: center; 
+}
+
 .gheader {grid-area: gheader; }
 .gToC {grid-area: gToC; }
 .gcontent {grid-area: gcontent; width: auto;}
