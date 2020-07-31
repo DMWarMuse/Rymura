@@ -25,10 +25,10 @@ img {
 header {
  text-align: center; 
 }
-
+/*
 nav[data-toggle='toc'] .nav .nav {
  display: block;
-}
+}*/
 
 .gheader {grid-area: gheader; }
 .gToC {grid-area: gToC; }
