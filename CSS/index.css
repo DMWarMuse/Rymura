@@ -1,5 +1,5 @@
 body {
-  width: 750px;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
@@ -9,6 +9,7 @@ body {
   background: #fafafa;
   color: #333333;
   margin-top: 4rem;
+  padding: 50px 0px 50px 50px;
 }
 
 img {
