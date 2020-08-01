@@ -1,5 +1,6 @@
-body {
-  max-width: 100%;
+/* Start Grid CSS */
+
+.gridContainer {
   display: grid;
   grid-template-areas:
   'gheader gheader gheader gheader'
@@ -8,6 +9,24 @@ body {
   grid-gap: 0px 25px;
   padding: 0 10%;
   padding-top: 65px;
+}
+
+.gheader {
+  grid-area: gheader;
+}
+
+.gToC {
+  grid-area: gToC;
+}
+
+.gcontent {
+  grid-area: gcontent;
+}
+
+/* End Grid CSS */
+
+body {
+  max-width: 100%;
   background: #fafafa;
   color: #333333;
 }
@@ -20,16 +39,12 @@ img {
 }
 
 header {
- text-align: center; 
+ text-align: center;
 }
 
 nav[data-toggle='toc'] .nav .nav {
  display: block;
 }
-
-.gheader {grid-area: gheader; }
-.gToC {grid-area: gToC;}
-.gcontent {grid-area: gcontent;}
 
 h1, h2, h3, h4, h5, h6 {
   color: #444444;
