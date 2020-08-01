@@ -5,7 +5,7 @@
   width: 100vw;
   display: grid;
   grid-template-areas:
-  'navbar navbar navbar navbar'
+  'gnavbar gnavbar gnavbar gnavbar'
   'gheader gheader gheader gheader'
   'gbody gbody gbody gbody'
   'gbody gbody gbody gbody';
@@ -13,7 +13,11 @@
   padding: 0 20%;
 }
 
-.navbar { grid-area: navbar;}
+.gnavbar {
+  grid-area: gnavbar;
+  position: fixed;
+}
+
 .gheader { grid-area: gheader;}
 .gbody {
   grid-area: gbody;
@@ -24,11 +28,6 @@
 }
 .gToC { grid-area: gToC;}
 .gcontent { grid-area: gcontent;}
-
-.nav {
-  position: sticky;
-  top: 0px;
-}
 
 .toc {
   position: sticky;
