@@ -1,3 +1,52 @@
+/* Start Nav Bar */
+
+#nav {
+  height: 50px;
+  margin: 10px 0px 15px;
+}
+
+#nav > a  {
+  float: left;
+  padding: 1px 15px;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#nav li {
+  float: left;
+  margin-left: 15px;
+}
+
+#nav li a {
+  display: block;
+  text-align: center;
+  padding: 7px 15px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #dddddd;         /* Should match main section headers */
+  text-shadow: 0px 0px 2px #000,  /* Should match main section headers */
+        -1px -1px 2px #000,
+        1px -1px 2px #000,
+        -1px 1px 2px #000,
+        1px 1px 2px #000;
+}
+
+#nav a {
+  border: 2px solid #bc8c6c;
+    border-radius: 7px;
+}
+
+#nav a:hover {
+  border: 2px solid #66a223;
+}
+
+/* End header and navigation basic framework */
+
 /* Start Grid CSS */
 
 .gridContainer {
