@@ -86,6 +86,7 @@
 
 .gcontent {
   grid-area: gcontent;
+  overflow-y: scroll;
 }
 
 /* End Grid CSS */
