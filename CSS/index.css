@@ -37,7 +37,7 @@ img {
 }
 
 .intro {
- text-align: center;
+ align-content: center;
 }
 
 nav[data-toggle='toc'] .nav .nav {
