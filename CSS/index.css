@@ -9,13 +9,13 @@
   'gheader gheader gheader gheader'
   'gbody gbody gbody gbody'
   'gbody gbody gbody gbody';
-  grid-gap: 0px 25px;
+  grid-gap: 10px 25px;
   padding: 0 20%;
 }
 
 .gnavbar {
   grid-area: gnavbar;
-  position: fixed;
+/*  position: fixed; */
 }
 
 .gheader { grid-area: gheader;}
@@ -32,6 +32,11 @@
 .toc {
   position: sticky;
   top: 65px;
+}
+
+.gnav {
+  position: sticky;
+  top: 0px;
 }
 
 /* End Grid CSS */
