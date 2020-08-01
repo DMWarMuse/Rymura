@@ -13,7 +13,7 @@
 #nav ul {
   list-style-type: none;
   margin: auto;
-  padding: 0 0 0 70px;
+  padding: 0 0 0 90px;
   overflow: hidden;
 }
 
@@ -37,7 +37,7 @@
 }
 
 #nav a {
-  border: 2px solid #bc8c6c;
+  border: 2px solid #3f3f3f;
     border-radius: 7px;
 }
 
