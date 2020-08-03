@@ -3,7 +3,7 @@
     .gnavbar {
       position: fixed;
       top: 0px;
-      padding: 0 20%;
+      padding: 0 18%;
       height: 100vh;
       width: 100vw;
     }
@@ -26,7 +26,7 @@
       'gbody gbody gbody gbody'
       'gbody gbody gbody gbody';
       grid-gap: 10px 25px;
-      padding: 62px 20%;
+      padding: 62px 18%;
     }
 
     .gheader { grid-area: gheader;}
@@ -45,13 +45,13 @@
 
 /* End Grid CSS */
 
-
 /* Start body CSS */
 
     body {
       max-width: 100%;
       background: #222629;
       color: #333333;
+      overflow-x: hidden;
     }
 
     img {
@@ -66,9 +66,14 @@
       color: #dddea4;
     }
 
+    h2, h3, h4, h5, h6 {
+      padding-left: 20px
+    }
+
     p {
-      color: #979797;
+      color: #a8a8a8;
       text-align: justify;
+      padding-left: 20px;
     }
 
 /* End Body CSS */
@@ -87,12 +92,21 @@
 /* End ToC CSS */
 
 /* Start Table CSS */
+      .tablecenter {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       table, th, td {
         border: 1px solid black;
       }
 
       tr:nth-child(even) {
         background: #cccccc;
+      }
+
+      tr:nth-child(odd) {
+        color: #a8a8a8;
       }
 
       th, td {
@@ -107,3 +121,20 @@
         color: white;
       }
 /* end Table CSS */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #feffb8c7 #343a40;
+}
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: #343a40;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #feffb8c7;
+  border-radius: 10px;
+  border: 3px solid #343a40;
+}
