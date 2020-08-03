@@ -52,20 +52,9 @@ body {
 img {
  max-width: 100%;
  height: auto;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.intro {
- align-content: center;
-}
-
-nav[data-toggle='toc'] .nav .nav {
  display: block;
+ margin-left: auto
+ margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,10 +65,20 @@ p {
   color: #979797;
   text-align: justify;
 }
+/* End Body CSS */
 
-ul {
-  margin: 0;
-}
+/* Begin Navbar CSS */
+      .bg-steel { background-color: #5F788A;}
+      .site-header .navbar-nav .nav-link { color: #cbd5db;}
+      .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
+      .site-header .navbar-nav .nav-link.active { font-weight: 500;}
+/* End Navbar CSS */
+
+/* Begin ToC CSS */
+      nav[data-toggle='toc'] .nav .nav {
+       display: block;
+      }
+/* End ToC CSS */
 
 /* Start Table CSS */
       table, th, td {
@@ -102,19 +101,3 @@ ul {
         color: white;
       }
 /* end Table CSS */
-
-.bg-steel {
-  background-color: #5F788A;
-}
-
-.site-header .navbar-nav .nav-link {
-  color: #cbd5db;
-}
-
-.site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
-}
-
-.site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
-}
