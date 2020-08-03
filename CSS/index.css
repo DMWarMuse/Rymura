@@ -1,43 +1,41 @@
 /* Start Grid CSS */
 
-.gridContainer {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-areas:
-  'gnavbar gnavbar gnavbar gnavbar'
-  'gheader gheader gheader gheader'
-  'gbody gbody gbody gbody'
-  'gbody gbody gbody gbody';
-  grid-gap: 10px 25px;
-  padding: 0 20%;
-}
+    .gridContainer {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      grid-template-areas:
+      'gnavbar gnavbar gnavbar gnavbar'
+      'gheader gheader gheader gheader'
+      'gbody gbody gbody gbody'
+      'gbody gbody gbody gbody';
+      grid-gap: 10px 25px;
+      padding: 62px 20%;
+    }
 
-.gnavbar {
-  grid-area: gnavbar;
-/*  position: fixed; */
-}
+    .gnavbar {
+      position: fixed;
+      top: 0px;
+      padding: 0 20%;
+      height: 100vh;
+      width: 100vw;
+    }
 
-.gheader { grid-area: gheader;}
-.gbody {
-  grid-area: gbody;
-  display: grid;
-  grid-template-areas:
-  'gToC gcontent gcontent gcontent'
-  'gToC gcontent gcontent gcontent'
-}
-.gToC { grid-area: gToC;}
-.gcontent { grid-area: gcontent;}
+    .gheader { grid-area: gheader;}
+    .gbody {
+      grid-area: gbody;
+      display: grid;
+      grid-template-areas:
+      'gToC gcontent gcontent gcontent'
+      'gToC gcontent gcontent gcontent'
+    }
+    .gToC { grid-area: gToC;}
+    .gcontent { grid-area: gcontent;}
 
-.toc {
-  position: sticky;
-  top: 65px;
-}
-
-.gnav {
-  position: sticky;
-  top: 0px;
-}
+    .toc {
+      position: sticky;
+      top: 65px;
+    }
 
 /* End Grid CSS */
 
