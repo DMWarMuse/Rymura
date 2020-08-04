@@ -29,23 +29,6 @@
       padding: 62px 18%;
     }
 
-    @media (max-width: 768px) {
-     .gridContainer {
-       padding: 1em;
-       display: grid;
-       grid-template-areas:
-        'gnavbar'
-        'gheader'
-        'gbody';
-      }
-
-      .gbody {
-        display: grid;
-        grid-template-areas:
-         'gcontent';
-      }
-     }
-
     .gheader { grid-area: gheader;}
 
     .gbody {
