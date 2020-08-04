@@ -36,7 +36,13 @@
        grid-template-areas:
         'gnavbar'
         'gheader'
-        'gcontent';
+        'gbody';
+      }
+
+      .gbody {
+        display: grid;
+        grid-template-areas:
+         'gcontent';
       }
      }
 
