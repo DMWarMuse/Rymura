@@ -90,7 +90,7 @@
           top: 65px;
         }
 
-    /* offset for Fixed Navbar */
+    /* offset for Fixed Navbar - This should be fixed */
     h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
         display: block;
         content: " ";
