@@ -79,16 +79,24 @@
 /* End Body CSS */
 
 /* Begin ToC CSS */
-    nav[data-toggle='toc'] .nav .nav {
-     display: block;
-    }
+        nav[data-toggle='toc'] .nav .nav {
+         display: block;
+        }
 
-/* Keep ToC on Page */
-    .toc {
-      position: sticky;
-      top: 65px;
-    }
+    /* Keep ToC on Page */
+        .toc {
+          position: sticky;
+          top: 65px;
+        }
 
+    /* offset for Fixed Navbar */
+    h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+        display: block;
+        content: " ";
+        height: 60px;
+        margin-top: -60px;
+        visibility: hidden;
+    }
 /* End ToC CSS */
 
 /* Start Table CSS */
@@ -138,3 +146,4 @@
   border-radius: 10px;
   border: 3px solid #343a40;
 }
+
