@@ -142,12 +142,11 @@
             font-weight: bolder;
             display: block;
             z-index: 1;
+            overflow: hidden;
           }
 
          .outlineToC:hover {
             height: 15em;
-            border: solid 1px;
-            border-color: #dddea4;
           }
 
           .outlineToC > ul > li {
