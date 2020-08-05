@@ -53,12 +53,19 @@
     @media (max-width: 768px) {
       .gbody {
         display: grid;
-        grid-template-columns: 0px 1fr;
+        grid-gap: 20px;
+        grid-template-areas: 
+        'gToC'
+        'gcontent'
       }
 
-      .gToC {
-        visibility: hidden;
+      nav[data-toggle="toc"] .nav > li > a {
+        text-align: center
       }
+
+/*      .gToC {
+        visibility: visible;
+      }*/
     }
 
     .gcontent { grid-area: gcontent;}
@@ -119,40 +126,19 @@
         nav[data-toggle='toc'] .nav .active .nav {
          display: none;
         }
-/* bottom ToC CSS
-        .outlineToC {
-          visibility: hidden;
-        }
-
-        @media (max-width: 500px) {
-          .outlineToC {
-            visibility: visible;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 1.5em;
-            overflow: auto;
-            background-color: #54436e;
-            font-weight: bolder;
-          }
-
-          .outlineToC:active {
-            height: 15em;
-          }
-
-          h6 {
-            text-align: center;
-            color: white;
-            font-weight: 500;
-          }
-        } */
-
 
     /* Keep ToC on Page */
         .toc {
           position: sticky;
           top: 65px;
+        }
+
+        @media (max-width: 768px) {
+          .toc {
+            position: relative;
+            top: 0px;
+            z-index: 1;
+          }
         }
 
     /* offset for Fixed Navbar - This should be fixed */
