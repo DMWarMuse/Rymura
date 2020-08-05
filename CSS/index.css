@@ -3,9 +3,8 @@
     .gnavbar {
       position: fixed;
       top: 0px;
-      padding: 0 18%;
-      height: 100vh;
-      width: 100vw;
+      width: 100%;
+      max-width: 1060px;
     }
 
      .bg-steel { background-color: #5F788A;}
@@ -26,7 +25,9 @@
       'gbody gbody gbody gbody'
       'gbody gbody gbody gbody';
       grid-gap: 10px 25px;
-      padding: 62px 18%;
+      padding-top: 62px;
+      max-width: 1060px;
+      margin: auto;
     }
 
     .gheader { grid-area: gheader;}
@@ -49,10 +50,11 @@
 
     body {
       height: 100vh;
-      width: 100vw;
+      max-width: 1060px;
       background: #222629;
       color: #333333;
       overflow-x: hidden;
+      margin: auto;
     }
 
     img {
@@ -131,20 +133,22 @@
       }
 /* end Table CSS */
 
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #feffb8c7 #343a40;
-}
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-  width: 10px;
-}
-*::-webkit-scrollbar-track {
-  background: #343a40;
-}
-*::-webkit-scrollbar-thumb {
-  background-color: #feffb8c7;
-  border-radius: 10px;
-  border: 3px solid #343a40;
-}
+/* custom Scroll Bar */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #feffb8c7 #343a40;
+    }
+    /* Works on Chrome/Edge/Safari */
+    *::-webkit-scrollbar {
+      width: 10px;
+    }
+    *::-webkit-scrollbar-track {
+      background: #343a40;
+    }
+    *::-webkit-scrollbar-thumb {
+      background-color: #feffb8c7;
+      border-radius: 10px;
+      border: 3px solid #343a40;
+    }
+/* End Scroll Bar */
 
