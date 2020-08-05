@@ -4,7 +4,8 @@
       position: fixed;
       top: 0px;
       width: 100%;
-      max-width: 1060px;
+      max-width: 1160px;
+      padding: 0px 108px 0px 108px;
     }
 
      .bg-steel { background-color: #5F788A;}
@@ -25,8 +26,8 @@
       'gbody gbody gbody gbody'
       'gbody gbody gbody gbody';
       grid-gap: 10px 25px;
-      padding-top: 62px;
-      max-width: 1060px;
+      padding: 61px 108px 0px 108px;
+      max-width: 1160px;
       margin: auto;
     }
 
@@ -50,7 +51,7 @@
 
     body {
       height: 100vh;
-      max-width: 1060px;
+      max-width: 1160px;
       background: #222629;
       color: #333333;
       overflow-x: hidden;
