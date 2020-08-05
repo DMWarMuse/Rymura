@@ -91,7 +91,7 @@
 /* media call for formatting */
     @media (max-width: 500px) {
       body {
-        font-size: .8rem;
+        font-size: .9rem;
       }
 
       h1 {
