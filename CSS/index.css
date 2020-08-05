@@ -8,6 +8,7 @@
       padding: 0px 3%;
     }
 
+    /* media call for Navbar */
     @media (max-width: 768px) {
       .gnavbar {
        padding: 0px;
@@ -46,16 +47,15 @@
       'gToC gcontent gcontent gcontent'
     }
 
+    .gToC { grid-area: gToC;}
+
+/* media call for layout */
     @media (max-width: 768px) {
       .gbody {
         display: grid;
         grid-template-columns: 0px 1fr;
       }
-    }
 
-    .gToC { grid-area: gToC;}
-
-    @media (max-width: 768px) {
       .gToC {
         visibility: hidden;
       }
@@ -86,6 +86,21 @@
 
     h1, h2, h3, h4, h5, h6 {
       color: #dddea4;
+    }
+
+/* media call for formatting */
+    @media (max-width: 500px) {
+      body {
+        font-size: .8rem;
+      }
+
+      h1 {
+        font-size: x-large;
+      }
+
+      h2, h3, h4, h5, h6 {
+        font-size: medium;
+      }
     }
 
     h2, h3, h4, h5, h6 {
