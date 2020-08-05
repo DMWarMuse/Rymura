@@ -142,8 +142,9 @@
           }
 
           h6 {
+            text-align: center;
             color: white;
-            font-weight: bold;
+            font-weight: 500;
           }
         }
 
