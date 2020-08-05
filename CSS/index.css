@@ -41,7 +41,20 @@
       'gToC gcontent gcontent gcontent'
     }
 
+    @media (max-width: 768px) {
+      .gbody {
+        display: grid;
+        grid-template-columns: 0px 1fr;
+      }
+    }
+
     .gToC { grid-area: gToC;}
+
+    @media (max-width: 768px) {
+      .gToC {
+        visibility: hidden;
+      }
+    }
 
     .gcontent { grid-area: gcontent;}
 
