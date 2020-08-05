@@ -148,7 +148,6 @@
             height: 15em;
             border: solid 1px;
             border-color: #dddea4;
-            overflow-y: hidden;
           }
 
           .outlineToC > ul > li {
