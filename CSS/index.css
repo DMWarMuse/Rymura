@@ -146,6 +146,8 @@
 
          .outlineToC:hover {
             height: 15em;
+            border: solid 1px;
+            border-color: #dddea4;
           }
 
           .outlineToC > ul > li {
