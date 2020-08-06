@@ -27,12 +27,11 @@
       width: 100vw;
       display: grid;
       grid-template-areas:
-      'gnavbar gnavbar gnavbar gnavbar'
       'gheader gheader gheader gheader'
       'gbody gbody gbody gbody'
       'gbody gbody gbody gbody';
       grid-gap: 10px 25px;
-      padding: 61px 5% 0px 5%;
+      padding: 71px 5% 0px 5%;
       max-width: 1160px;
       margin: auto;
     }
