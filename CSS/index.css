@@ -123,7 +123,7 @@
         nav[data-toggle='toc'] .nav .nav {
          display: block;
         }
-        
+        /* Bottom ToC Mobile */
         .outlineToC {
           visibility: hidden;
         }
@@ -147,6 +147,11 @@
 
          .outlineToC:hover {
             height: 15em;
+          }
+
+          . outlineToC > ul {
+            justify-content: center;
+            display: flex;
           }
 
           .outlineToC > ul > li {
