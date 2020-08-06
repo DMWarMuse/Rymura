@@ -149,6 +149,12 @@
          .outlineToC:hover {
             height: 15em;
           }
+          
+          .outlineToC > ul {
+            width: 70%;
+            margin: auto;
+            display: block;
+          }
 
           .outlineToC > ul > li {
             display: block;
