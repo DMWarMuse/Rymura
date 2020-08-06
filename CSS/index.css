@@ -50,7 +50,7 @@
     .gToC { grid-area: gToC;}
 
 /* media call for layout */
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       .gbody {
         display: grid;
         grid-template-columns: 0px 1fr;
@@ -93,7 +93,7 @@
     }
 
 /* media call for formatting */
-    @media (max-width: 500px) {
+    @media (max-width: 768px) {
       body {
         font-size: .85rem;
       }
@@ -129,7 +129,7 @@
           visibility: hidden;
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
 
           .outlineToC {
             visibility: visible;
