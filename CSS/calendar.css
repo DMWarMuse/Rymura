@@ -12,6 +12,7 @@
     @media (max-width: 768px) {
       .gnavbar {
        padding: 0px;
+       z-index: 2;
       }
     }
 
