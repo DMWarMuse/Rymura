@@ -20,6 +20,65 @@
    .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
    .site-header .navbar-nav .nav-link.active { font-weight: 500;}
 
+    #nav {
+      margin: 10px 0 0 0;
+    }
+
+    #nav ul {
+      list-style-type: none;
+      margin: 0px;
+      overflow: hidden;
+      padding: 0px
+    }
+
+    #nav li {
+      float: left;
+      margin-left: 15px;
+    }
+
+    #nav li a {
+      display: block;
+      text-align: center;
+      padding: 4px 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #a8a8a8;
+    }
+    
+        /* media calls for Nav buttons */  
+        @media (max-width: 768px) {
+          #nav li a {
+            padding: 4px 8px;
+            font-size: 12px;
+          }
+
+          #nav li {
+            margin-left: 10px;
+          }
+        }
+
+    @media (max-width: 550px) {
+      #nav li a {
+        padding: 2px 4px;
+        font-size: 8px;
+      }
+
+      #nav li {
+        margin-left: 5px;
+      }
+    }
+    #nav a {
+      border: 2px solid #694d95;
+      border-radius: 7px;
+    }
+
+    #nav a.frostfall:hover { border: 2px solid #d9e2f3;}
+    #nav a.bloom:hover { border: 2px solid #e6ffcd;}
+    #nav a.soltine:hover { border: 2px solid #89ce71;}
+    #nav a.harvestide:hover { border: 2px solid #ffdcaf;}
+    #nav a.holidays:hover { border: 2px solid #f93434;}
+    #nav a.reference:hover { border: 2px solid #6117d7;}
+
     /* The Magic Float Center Code */
     .float_center {
       float: right;
@@ -198,41 +257,3 @@
         margin-top: -60px;
         visibility: hidden;
     }
-
-
-#nav {
-  margin: 10px 0 0 0;
-}
-
-#nav ul {
-  list-style-type: none;
-  margin: 0px;
-  overflow: hidden;
-  padding: 0px
-}
-
-#nav li {
-  float: left;
-  margin-left: 15px;
-}
-
-#nav li a {
-  display: block;
-  text-align: center;
-  padding: 4px 10px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #a8a8a8;
-}
-
-#nav a {
-  border: 2px solid #694d95;
-  border-radius: 7px;
-}
-
-#nav a.frostfall:hover { border: 2px solid #d9e2f3;}
-#nav a.bloom:hover { border: 2px solid #e6ffcd;}
-#nav a.soltine:hover { border: 2px solid #89ce71;}
-#nav a.harvestide:hover { border: 2px solid #ffdcaf;}
-#nav a.holidays:hover { border: 2px solid #f93434;}
-#nav a.reference:hover { border: 2px solid #6117d7;}
