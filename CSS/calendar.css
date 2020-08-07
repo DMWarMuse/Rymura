@@ -1,5 +1,4 @@
 /* Start Navbar CSS */
-
     .gnavbar {
       position: fixed;
       top: 0px;
@@ -14,12 +13,25 @@
        padding: 0px;
       }
     }
-     .bg-steel { background-color: #5F788A;}
-     .site-header .navbar-nav .nav-link { color: #cbd5db;}
-     .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
-     .site-header .navbar-nav .nav-link.active { font-weight: 500;}
 
-/* End Navbar CSS*
+   .bg-steel { background-color: #5F788A;}
+   .site-header .navbar-nav .nav-link { color: #cbd5db;}
+   .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
+   .site-header .navbar-nav .nav-link.active { font-weight: 500;}
+
+    /* The Magic Float Center Code */
+    .float_center {
+      float: right;
+      position: relative;
+      left: -50%; /* or right 50% */
+      text-align: left;
+    }
+    .float_center > .float_child {
+      position: relative;
+      left: 50%;
+    }
+/* End Navbar CSS*/
+
 /* Start Grid CSS */
 
     .gridContainer {
@@ -30,7 +42,6 @@
       'gheader gheader gheader gheader'
       'gbody gbody gbody gbody'
       'gbody gbody gbody gbody';
-      grid-gap: 10px 25px;
       padding: 71px 5% 0px 5%;
       max-width: 1160px;
       margin: auto;
@@ -47,24 +58,6 @@
       grid-template-areas:
       'gcontent gcontent gcontent'
       'gcontent gcontent gcontent'
-    }
-
-    .gToC { grid-area: gToC;}
-
-/* media call for layout */
-    @media (max-width: 600px) {
-      .gbody {
-        display: grid;
-        grid-template-columns: 0px 1fr;
-      }
-
-      nav[data-toggle="toc"] .nav > li > a {
-        text-align: center
-      }
-
-      .gToC {
-        visibility: hidden;
-      }
     }
 
     .gcontent { grid-area: gcontent;}
@@ -99,8 +92,11 @@
       font-weight: bolder;
     }
 
-    .a-inline {
-      color: #694d95;
+    .newyear {
+      text-align: center;
+      border: 3px solid #dddea4;
+      padding: 1%;
+      max-width: 736px;
     }
 
 /* media call for formatting */
@@ -108,103 +104,60 @@
       body {
         font-size: .85rem;
       }
-
-      h1 {
-        font-size: x-large;
-      }
-
-      h2, h3, h4, h5, h6 {
-        font-size: medium;
-      }
-    }
-
-    h2, h3, h4 {
-      padding-left: 20px
-    }
-
-    h5, h6 {
-      padding-left: 30px;
     }
 
     p {
       color: #a8a8a8;
-      padding-left: 20px;
+      padding: 0 0 20px 20px;
+      max-width: 80%;
+      margin: auto;
     }
 
-    .p-h5 {
-      padding-left: 30px;
-    }
+/* start table CSS */
 
-/* End Body CSS */
+  table > tbody > tr > td {
+    text-align: right;
+    font-size: 10px;
+    padding: 4px;
+    border: 1px solid black;
+  }
 
-/* Begin ToC CSS */
-        nav[data-toggle='toc'] .nav .nav {
-         display: block;
-        }
+  table {
+    border: 2px solid white;
+    table-layout: fixed;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 3rem;
+  }
 
-        /* Bottom ToC Mobile */
-        .outlineToC {
-          visibility: hidden;
-        }
+  table.frostfall > tbody > tr:nth-child(odd) { background: #d9e2f3;}
+  h1.frostfall { color: #d9e2f3;}
 
-        @media (max-width: 600px) {
+  table.bloom > tbody > tr:nth-child(odd) { background: #e6ffcd;}
+  h1.bloom { color: #e6ffcd;}
 
-          .outlineToC {
-            visibility: visible;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 1.5em;
-            background-color: #343a40;
-            display: block;
-            z-index: 1;
-            overflow: hidden;
-          }
+  table.soltine > tbody > tr:nth-child(odd) { background: #89ce71;}
+  h1.soltine { color: #89ce71;}
 
-         .outlineToC:hover {
-            height: 15em;
-          }
+  table.harvestide > tbody > tr:nth-child(odd) { background: #ffdcaf;}
+  h1.harvestide { color: #ffdcaf;}
 
-          .outlineToC > ul {
-            text-align: center;
-            padding: 0;
-          }
+  table > tbody > tr:nth-child(even) {
+    background: #d7d7d7;
+  }
 
-          .outlineToC > ul > li {
-            list-style: none;
-          }
+  table > tbody > tr:nth-child(odd) > td {
+    height: 1rem;
+    width: 6rem;
+  }
 
-          .outlineToC > ul > li > a {
-            display: block;
-            font-size: 12px;
-            font-weight: 500;
-            color: #dddea4;
-          }
-
-          .outlineToC > h6 {
-            color: white;
-            text-align: center;
-            padding-left: 0px;
-            background-color: #54436e;
-          }
-        }
-
-    /* Keep ToC on Page */
-        .toc {
-          position: sticky;
-          top: 65px;
-        }
-
-    /* offset for Fixed Navbar - This should be fixed */
-    h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
-        display: block;
-        content: " ";
-        height: 60px;
-        margin-top: -60px;
-        visibility: hidden;
-    }
-/* End ToC CSS */
+  table > tbody > tr:nth-child(even) > td {
+    height: 5rem;
+    text-align: left;
+    vertical-align: top;
+    font-size: .7rem;
+  }
+/* end table CSS */
 
 /* custom Scroll Bar */
     * {
@@ -225,76 +178,49 @@
     }
 /* End Scroll Bar */
 
-/* start calendar page CSS */
-  table, th, td {
-    border: 1px solid black;
-  }
+    /* offset for Fixed Navbar - This should be fixed */
+    h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+        display: block;
+        content: " ";
+        height: 60px;
+        margin-top: -60px;
+        visibility: hidden;
+    }
 
-  th, td {
-    padding: 8px;
-  }
 
-  table {
-    border: 2px solid white;
-    table-layout: fixed;
-    width: 56rem;
-    height: 117rem;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 3rem;
-  }
+#nav {
+  margin: 10px 0 0 0;
+}
 
-  table.frostfall > tbody > tr:nth-child(odd) {
-    background: #d9e2f3;
-  }
+#nav ul {
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px
+}
 
-  h1.frostfall {
-    color: #d9e2f3;
-  }
+#nav li {
+  float: left;
+  margin-left: 15px;
+}
 
-  table.bloom > tbody > tr:nth-child(odd) {
-    background: #e6ffcd;
-  }
+#nav li a {
+  display: block;
+  text-align: center;
+  padding: 4px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a8a8a8;
+}
 
-  h1.bloom {
-    color: #e6ffcd;
-  }
+#nav a {
+  border: 2px solid #694d95;
+  border-radius: 7px;
+}
 
-  table.soltine > tbody > tr:nth-child(odd) {
-    background: #89ce71;
-  }
-
-  h1.soltine {
-    color: #89ce71;
-  }
-
-  table.harvestide > tbody > tr:nth-child(odd) {
-    background: #ffdcaf;
-  }
-
-  h1.harvestide {
-    color: #ffdcaf;
-  }
-
-  table > tbody > tr:nth-child(even) {
-    background: #d7d7d7;
-  }
-
-  table > tbody > tr:nth-child(odd) > td {
-    height: 2rem;
-  }
-
-  table > tbody > tr:nth-child(even) > td {
-    height: 7rem;
-    text-align: left;
-    vertical-align: top;
-    font-size: .7rem;
-  }
-
-  table > tbody > tr > td {
-    text-align: right;
-    color: black;
-    border-color: black;
-    width: 8rem;
-    font-size: 10px;
-  }
+#nav a.frostfall:hover { border: 2px solid #d9e2f3;}
+#nav a.bloom:hover { border: 2px solid #e6ffcd;}
+#nav a.soltine:hover { border: 2px solid #89ce71;}
+#nav a.harvestide:hover { border: 2px solid #ffdcaf;}
+#nav a.holidays:hover { border: 2px solid #f93434;}
+#nav a.reference:hover { border: 2px solid #6117d7;}
