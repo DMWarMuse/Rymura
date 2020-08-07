@@ -1,4 +1,5 @@
 /* Start Navbar CSS */
+    
     .gnavbar {
       position: fixed;
       top: 0px;
@@ -96,7 +97,6 @@
       text-align: center;
       border: 3px solid #dddea4;
       padding: 1%;
-      max-width: 736px;
     }
 
 /* media call for formatting */
@@ -156,6 +156,18 @@
     text-align: left;
     vertical-align: top;
     font-size: .7rem;
+  }
+
+/* media call for tables */
+  @media (max-width: 768px) {
+    table > tbody > tr:nth-child(odd) > td {
+      font-size: .3rem;
+    }
+
+    table > tbody > tr:nth-child(even) > td {
+      font-size: .4rem;
+      height: 2rem;
+    }
   }
 /* end table CSS */
 
