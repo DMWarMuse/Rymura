@@ -99,15 +99,19 @@
 /* media call for formatting */
     @media (max-width: 768px) {
       body {
-        font-size: .85rem;
+        font-size: .75rem;
       }
 
       h1 {
-        font-size: x-large;
+        font-size: large;
       }
 
-      h2, h3, h4, h5, h6 {
+      h2, h3, h4 {
         font-size: medium;
+      }
+
+      h5, h6 {
+        font-size: small;
       }
     }
 
@@ -126,10 +130,6 @@
 
     .p-h5 {
       padding-left: 30px;
-    }
-
-    h5 > p {
-      padding-left:30px;
     }
 
 /* End Body CSS */
@@ -208,8 +208,14 @@
       .tablecenter {
         margin-left: auto;
         margin-right: auto;
-        width: 80%
+        width: 90%;
       }
+
+        @media (max-width: 768px) {
+          .tablecenter {
+            max-width: 95%;
+          }
+        }
 
       table, th, td {
         border: 1px solid black;
