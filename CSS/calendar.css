@@ -110,7 +110,7 @@
 
     .gheader {
       grid-area: gheader;
-      margin-bottom: 3rem;
+      margin-bottom: 1.5rem;
     }
 
     .gbody {
@@ -171,6 +171,12 @@
       padding: 0 0 20px 20px;
       max-width: 80%;
       margin: auto;
+    }
+
+    @media (max-width: 768px) {
+      p {
+        max-width: 90%;
+      }
     }
 
 /* start table CSS */
