@@ -126,6 +126,11 @@
     .gchar { grid-area: gchar;}
     .gpanth { grid-area: gpanth;}
     .gcal { grid-area: gcal;}
+    .gcal li {
+      background-image: url(../Images/calendar.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     .gtools { grid-area: gtools;}
 
 /* End Grid CSS */
