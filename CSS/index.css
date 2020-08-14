@@ -1,5 +1,5 @@
 /* Start Navbar CSS */
-    
+
     .gnavbar {
       position: fixed;
       top: 0px;
@@ -39,8 +39,8 @@
       border: 2px solid #694d95;
       border-radius: 7px;
     }
-    
-        /* media calls for Nav buttons */  
+
+        /* media calls for Nav buttons */
         @media (max-width: 768px) {
           #nav li a {
             font-size: .7rem;
