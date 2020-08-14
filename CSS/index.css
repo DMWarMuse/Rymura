@@ -29,13 +29,16 @@
 
     #nav li {
       text-align: center;
+      background-image: url(../Images/town.png);
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     #nav li a {
       display: block;
       padding: 5rem 0px;
       font-weight: bold;
-      color: #a8a8a8;
+      color: black;
       border: 2px solid #694d95;
       border-radius: 7px;
     }
