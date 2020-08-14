@@ -24,15 +24,16 @@
 
     #nav ul {
       list-style-type: none;
+      padding: 0px
     }
 
     #nav li {
-      text-align: center;
+      margin-bottom: 5px;
     }
 
     #nav li a {
       display: block;
-      padding: 5rem 0px;
+      padding: 4px 10px;
       font-weight: bold;
       color: #a8a8a8;
       border: 2px solid #694d95;
@@ -51,7 +52,7 @@
     #nav a.harvestide:hover { border: 2px solid #ffdcaf;}
     #nav a.holidays:hover { border: 2px solid #f93434;}
     #nav a.reference:hover { border: 2px solid #6117d7;}
-/* End Navbar CSS */
+/* End Navbar CSS*/
 
 /* Start Grid CSS */
 
@@ -60,9 +61,9 @@
       width: 100vw;
       display: grid;
       grid-template-areas:
-      'gheader gheader gheader'
-      'gterrim grules gchar'
-      'gpanth gcal gtools';
+      'gheader gheader gheader gheader'
+      'gbody gbody gbody gbody'
+      'gbody gbody gbody gbody';
       padding: 71px 5% 0px 5%;
       max-width: 1160px;
       margin: auto;
@@ -73,12 +74,17 @@
       padding-bottom: 1rem;
     }
 
-    .gterrim { grid-area: gterrim;}
-    .grules { grid-area: grules;}
-    .gchar { grid-area: gchar;}
-    .gpanth { grid-area: gpanth;}
-    .gcal { grid-area: gcal;}
-    .gtools { grid-area: gtools;}
+    .gbody {
+      grid-area: gbody;
+      display: grid;
+      grid-template-areas:
+      'gtoc gcontent gcontent gcontent'
+      'gtoc gcontent gcontent gcontent'
+    }
+
+    .gcontent { grid-area: gcontent;}
+
+    .gtoc { grid-area: gtoc;}
 
 /* End Grid CSS */
 
