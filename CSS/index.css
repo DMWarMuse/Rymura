@@ -24,6 +24,7 @@
 
     #nav ul {
       list-style-type: none;
+      padding: 0px 1.5rem 0px 1.5rem;
     }
 
     #nav li {
@@ -42,7 +43,15 @@
         /* media calls for Nav buttons */
         @media (max-width: 768px) {
           #nav li a {
-            font-size: .7rem;
+            font-size: 1rem;
+          }
+        }
+        @media (max-width: 500px) {
+          #nav ul {
+            padding: 0px 3rem 0x 3rem;
+          }
+          #nav li a {
+            padding: 3rem;
           }
         }
     #nav a.frostfall:hover { border: 2px solid #d9e2f3;}
@@ -67,6 +76,35 @@
       max-width: 1160px;
       margin: auto;
     }
+
+      @media (max-width: 768px) {
+          .gridContainer {
+          grid-template-areas:
+          'gheader gheader'
+          'gterrim grules'
+          'gchar gpanth'
+          'gcal gtools';
+          padding: 71px 5% 0px 5%;
+          max-width: 1160px;
+          margin: auto;
+        }
+      }
+
+        @media (max-width: 500px) {
+          .gridContainer {
+          grid-template-areas:
+          'gheader'
+          'gterrim'
+          'grules'
+          'gchar'
+          'gpanth'
+          'gcal'
+          'gtools';
+          padding: 71px 5% 0px 5%;
+          max-width: 1160px;
+          margin: auto;
+        }
+      }
 
     .gheader {
       grid-area: gheader;
@@ -114,17 +152,18 @@
       font-weight: bolder;
     }
 
+    p {
+      color: #a8a8a8;
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+
 /* media call for formatting */
     @media (max-width: 768px) {
       body {
         font-size: .85rem;
       }
-    }
-
-    p {
-      color: #a8a8a8;
-      max-width: 80%;
-      margin: auto;
     }
 
 /* custom Scroll Bar */
