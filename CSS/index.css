@@ -29,18 +29,15 @@
 
     #nav li {
       text-align: center;
-      background-image: url(../Images/town.png);
-      background-size: cover;
-      background-repeat: no-repeat;
     }
 
     #nav li a {
       display: block;
       padding: 5rem 0px;
       font-weight: bold;
-      color: black;
-      border: 2px solid #694d95;
-      border-radius: 7px;
+      color: #a8a8a8;
+      border: 3px solid #694d95;
+/*      border-radius: 7px;*/
     }
 
         /* media calls for Nav buttons */
@@ -114,8 +111,18 @@
       padding-bottom: 1rem;
     }
 
-    .gterrim { grid-area: gterrim;}
+    .gterrim {grid-area: gterrim;}
+    .gterrim li {
+      background-image: url(../Images/town.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     .grules { grid-area: grules;}
+    .grules li {
+      background-image: url(../Images/rules.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     .gchar { grid-area: gchar;}
     .gpanth { grid-area: gpanth;}
     .gcal { grid-area: gcal;}
