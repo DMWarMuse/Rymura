@@ -92,14 +92,16 @@
       color: #dddea4;
     }
 
-    .a-inline {
-      color: #694d95;
+    .gcontent > p > a {color: #694d95;}
+    .gcontent > p > a:hover {
+      color: #4e3b6c;
+      text-decoration: none;
     }
 
 /* media call for formatting */
     @media (max-width: 768px) {
       body {
-        font-size: .75rem;
+        font-size: .8rem;
       }
 
       h1 {

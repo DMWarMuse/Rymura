@@ -92,8 +92,10 @@
       color: #dddea4;
     }
 
-    .a-inline {
-      color: #694d95;
+    .gcontent a {color: #694d95;}
+    .gcontent a:hover {
+      color: #4e3b6c;
+      text-decoration: none;
     }
 
     .preside {

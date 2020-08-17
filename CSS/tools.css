@@ -148,18 +148,17 @@
       color: #dddea4;
     }
 
-    iframe {
-      align-content: center;
-      background-color: white;
-      width: 100%;
-      height: 500px;
+    .gcontent a {color: #694d95;}
+    .gcontent a:hover {
+      color: #4e3b6c;
+      text-decoration: none;
     }
 
 
 /* media call for formatting */
     @media (max-width: 768px) {
       body {
-        font-size: .85rem;
+        font-size: .8rem;
       }
     }
 

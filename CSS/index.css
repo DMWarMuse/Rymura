@@ -177,7 +177,7 @@
 /* media call for formatting */
     @media (max-width: 768px) {
       body {
-        font-size: .85rem;
+        font-size: .8rem;
       }
     }
 
