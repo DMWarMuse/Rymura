@@ -56,7 +56,6 @@
 /* End Grid CSS */
 
 /* Start body CSS */
-
     body {
       height: 100vh;
       max-width: 1160px;
@@ -76,6 +75,7 @@
 
     h1, h2, h3, h4, h5, h6 {
       color: #a8a8a8;
+      text-align: center;
     }
 
     .gcontent a {color: #694d95;}
@@ -84,6 +84,12 @@
       text-decoration: none;
     }
 
+    p {
+      color: #a8a8a8;
+      padding: 0 0 20px 0;
+      margin: auto;
+      text-align: center;
+    }
 
 /* media call for formatting */
     @media (max-width: 768px) {
@@ -92,12 +98,7 @@
       }
     }
 
-    p {
-      color: #a8a8a8;
-      padding: 0 0 20px 20px;
-      margin: auto;
-      text-align: center;
-    }
+
 
 
 /* custom Scroll Bar */
