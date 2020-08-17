@@ -21,76 +21,6 @@
    .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
    .site-header .navbar-nav .nav-link.active { font-weight: 500;}
 
-    #nav {
-      margin: 10px 0 0 0;
-    }
-
-    #nav ul {
-      list-style-type: none;
-      margin: 0px;
-      overflow: hidden;
-      padding: 0px
-    }
-
-    #nav li {
-      float: left;
-      margin-left: 15px;
-    }
-
-    #nav li a {
-      display: block;
-      text-align: center;
-      padding: 4px 10px;
-      font-size: 18px;
-      font-weight: bold;
-      color: #a8a8a8;
-    }
-
-        /* media calls for Nav buttons */
-        @media (max-width: 768px) {
-          #nav li a {
-            padding: 4px 8px;
-            font-size: 12px;
-          }
-
-          #nav li {
-            margin-left: 10px;
-          }
-        }
-
-    @media (max-width: 550px) {
-      #nav li a {
-        padding: 2px 4px;
-        font-size: 8px;
-      }
-
-      #nav li {
-        margin-left: 5px;
-      }
-    }
-    #nav a {
-      border: 2px solid #694d95;
-      border-radius: 7px;
-    }
-
-    #nav a.frostfall:hover { border: 2px solid #d9e2f3;}
-    #nav a.bloom:hover { border: 2px solid #e6ffcd;}
-    #nav a.soltine:hover { border: 2px solid #89ce71;}
-    #nav a.harvestide:hover { border: 2px solid #ffdcaf;}
-    #nav a.holidays:hover { border: 2px solid #f93434;}
-    #nav a.reference:hover { border: 2px solid #6117d7;}
-
-    /* The Magic Float Center Code */
-    .float_center {
-      float: right;
-      position: relative;
-      left: -50%; /* or right 50% */
-      text-align: left;
-    }
-    .float_center > .float_child {
-      position: relative;
-      left: 50%;
-    }
 /* End Navbar CSS*/
 
 /* Start Grid CSS */
@@ -110,7 +40,7 @@
 
     .gheader {
       grid-area: gheader;
-      margin-bottom: 3rem;
+      margin-bottom: 1.5rem;
     }
 
     .gbody {
@@ -145,7 +75,7 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
-      color: #dddea4;
+      color: #a8a8a8;
     }
 
     .gcontent a {color: #694d95;}
@@ -188,12 +118,3 @@
       border: 3px solid #343a40;
     }
 /* End Scroll Bar */
-
-    /* offset for Fixed Navbar - This should be fixed */
-    h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
-        display: block;
-        content: " ";
-        height: 60px;
-        margin-top: -60px;
-        visibility: hidden;
-    }
