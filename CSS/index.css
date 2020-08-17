@@ -179,6 +179,14 @@
       body {
         font-size: .8rem;
       }
+
+      h1 {
+        font-size: x-large;
+      }
+
+      h2, h3, h4, h5, h6 {
+        font-size: medium;
+      }
     }
 
 /* custom Scroll Bar */
