@@ -40,7 +40,7 @@
 
     .gheader {
       grid-area: gheader;
-      margin-bottom: 1.5rem;
+   /*   margin-bottom: 1.5rem;*/
     }
 
     .gbody {
@@ -67,7 +67,7 @@
 
     img {
      max-width: 100%;
-     height: auto;
+     /*height: auto;*/
      display: block;
      margin-left: auto;
      margin-right: auto;
