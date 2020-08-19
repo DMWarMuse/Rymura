@@ -1,0 +1,97 @@
+/* Start Navbar CSS */
+
+    .gnavbar {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      max-width: 1160px;
+      padding: 0px 3%;
+    }
+
+    /* media call for Navbar */
+    @media (max-width: 768px) {
+      .gnavbar {
+       padding: 0px;
+      }
+    }
+
+     .bg-steel { background-color: #5F788A;}
+     .site-header .navbar-nav .nav-link { color: #cbd5db;}
+     .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
+     .site-header .navbar-nav .nav-link.active { font-weight: 500;}
+
+/* End Navbar CSS*
+/* Start Grid CSS */
+
+    .gridContainer {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      grid-template-areas:
+      'gheader gheader gheader gheader'
+      'gbody gbody gbody gbody'
+      'gbody gbody gbody gbody';
+      grid-gap: 10px 25px;
+      padding: 71px 5% 0px 5%;
+      max-width: 1160px;
+      margin: auto;
+    }
+
+    .gheader { grid-area: gheader;}
+
+    .gbody {
+      grid-area: gbody;
+      display: grid;
+      grid-template-areas:
+      'gToC gcontent gcontent gcontent'
+      'gToC gcontent gcontent gcontent'
+    }
+
+    .gToC { grid-area: gToC;}
+
+/* media call for layout */
+    @media (max-width: 600px) {
+      .gbody {
+        display: grid;
+        grid-template-columns: 0px 1fr;
+      }
+
+      nav[data-toggle="toc"] .nav > li > a {
+        text-align: center
+      }
+
+      .gToC {
+        visibility: hidden;
+      }
+    }
+
+    .gcontent { grid-area: gcontent;}
+
+/* End Grid CSS */
+
+/* Start body CSS */
+
+    body {
+      height: 100vh;
+      max-width: 1160px;
+      background: #222629;
+      color: #333333;
+      overflow-x: hidden;
+      margin: auto;
+    }
+
+    img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #dddea4;
+    }
+
+    .a-inline {
+      color: #694d95;
+    }

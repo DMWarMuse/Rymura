@@ -1,0 +1,121 @@
+/* Start Navbar CSS */
+
+    .gnavbar {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      max-width: 1160px;
+      padding: 0px 3%;
+    }
+
+    /* media call for Navbar */
+    @media (max-width: 768px) {
+      .gnavbar {
+       padding: 0px;
+       z-index: 2;
+      }
+    }
+
+   .bg-steel { background-color: #5F788A;}
+   .site-header .navbar-nav .nav-link { color: #cbd5db;}
+   .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
+   .site-header .navbar-nav .nav-link.active { font-weight: 500;}
+
+/* End Navbar CSS*/
+
+/* Start Grid CSS */
+
+    .gridContainer {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      grid-template-areas:
+      'gheader gheader gheader gheader'
+      'gbody gbody gbody gbody'
+      'gbody gbody gbody gbody';
+      padding: 71px 5% 0px 5%;
+      max-width: 1160px;
+      margin: auto;
+    }
+
+    .gheader {
+      grid-area: gheader;
+   /*   margin-bottom: 1.5rem;*/
+    }
+
+    .gbody {
+      grid-area: gbody;
+      display: grid;
+      grid-template-areas:
+      'gcontent gcontent gcontent'
+      'gcontent gcontent gcontent'
+    }
+
+    .gcontent { grid-area: gcontent;}
+
+/* End Grid CSS */
+
+/* Start body CSS */
+    body {
+      height: 100vh;
+      max-width: 1160px;
+      background: #222629;
+      color: #333333;
+      overflow-x: hidden;
+      margin: auto;
+    }
+
+    img {
+     max-width: 100%;
+     /*height: auto;*/
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #a8a8a8;
+      text-align: center;
+    }
+
+    .gcontent a {color: #694d95;}
+    .gcontent a:hover {
+      color: #4e3b6c;
+      text-decoration: none;
+    }
+
+    p {
+      color: #a8a8a8;
+      padding: 0 0 20px 0;
+      margin: auto;
+      text-align: center;
+    }
+
+/* media call for formatting */
+    @media (max-width: 768px) {
+      body {
+        font-size: .8rem;
+      }
+    }
+
+
+
+
+/* custom Scroll Bar */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #feffb8c7 #343a40;
+    }
+    /* Works on Chrome/Edge/Safari */
+    *::-webkit-scrollbar {
+      width: 10px;
+    }
+    *::-webkit-scrollbar-track {
+      background: #343a40;
+    }
+    *::-webkit-scrollbar-thumb {
+      background-color: #feffb8c7;
+      border-radius: 10px;
+      border: 3px solid #343a40;
+    }
+/* End Scroll Bar */

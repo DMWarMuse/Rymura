@@ -1,4 +1,5 @@
 /* Start Navbar CSS */
+
     .gnavbar {
       position: fixed;
       top: 0px;
@@ -6,20 +7,22 @@
       max-width: 1160px;
       padding: 0px 3%;
     }
+
+    /* media call for Navbar */
+    @media (max-width: 768px) {
+      .gnavbar {
+       padding: 0px;
+      }
+    }
+
      .bg-steel { background-color: #5F788A;}
      .site-header .navbar-nav .nav-link { color: #cbd5db;}
      .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
      .site-header .navbar-nav .nav-link.active { font-weight: 500;}
-   
-    /* media call for Navbar */
-      @media (max-width: 768px) {
-        .gnavbar {
-         padding: 0px;
-         z-index: 2;
-        }
-      }
+
 /* End Navbar CSS*
 /* Start Grid CSS */
+
     .gridContainer {
       height: 100vh;
       width: 100vw;
@@ -33,7 +36,9 @@
       max-width: 1160px;
       margin: auto;
     }
+
     .gheader { grid-area: gheader;}
+
     .gbody {
       grid-area: gbody;
       display: grid;
@@ -41,8 +46,8 @@
       'gToC gcontent gcontent gcontent'
       'gToC gcontent gcontent gcontent'
     }
+
     .gToC { grid-area: gToC;}
-    .gcontent { grid-area: gcontent;}
 
 /* media call for layout */
     @media (max-width: 600px) {
@@ -50,15 +55,22 @@
         display: grid;
         grid-template-columns: 0px 1fr;
       }
+
       nav[data-toggle="toc"] .nav > li > a {
         text-align: center
       }
+
       .gToC {
         visibility: hidden;
       }
     }
+
+    .gcontent { grid-area: gcontent;}
+
 /* End Grid CSS */
+
 /* Start body CSS */
+
     body {
       height: 100vh;
       max-width: 1160px;
@@ -67,6 +79,7 @@
       overflow-x: hidden;
       margin: auto;
     }
+
     img {
      max-width: 100%;
      height: auto;
@@ -74,43 +87,67 @@
      margin-left: auto;
      margin-right: auto;
     }
+
     h1, h2, h3, h4, h5, h6 {
       color: #dddea4;
     }
-    .gcontent a {color: #694d95;}
-    .gcontent a:hover {
+
+    .gcontent > p > a {color: #694d95;}
+    .gcontent > p > a:hover {
       color: #4e3b6c;
       text-decoration: none;
     }
+
+/* media call for formatting */
+    @media (max-width: 768px) {
+      body {
+        font-size: .8rem;
+      }
+
+      h1 {
+        font-size: x-large;
+      }
+
+      h2, h3, h4 {
+        font-size: medium;
+      }
+
+      h5, h6 {
+        font-size: small;
+      }
+    }
+
     h2, h3, h4 {
       padding-left: 20px
     }
+
     h5, h6 {
       padding-left: 30px;
     }
+
     p {
       color: #a8a8a8;
       padding-left: 20px;
     }
+
     .p-h5 {
       padding-left: 30px;
     }
-    h5 > p {
-      padding-left:30px;
-    }
-    /* media call for formatting */
-    @media (max-width: 768px) {
-      body { font-size: .8rem;}
-      h1 { font-size: x-large;}
-      h2, h3, h4, h5, h6 {font-size: medium;}
-    }
+
 /* End Body CSS */
+
 /* Begin ToC CSS */
-        nav[data-toggle='toc'] .nav .nav {display: block;}
+        nav[data-toggle='toc'] .nav .nav {
+         display: block;
+        }
+
         /* Bottom ToC Mobile */
-        .outlineToC {visibility: hidden;}
+        .outlineToC {
+          visibility: hidden;
+        }
 
         @media (max-width: 600px) {
+
           .outlineToC {
             visibility: visible;
             position: fixed;
@@ -123,22 +160,27 @@
             z-index: 1;
             overflow: hidden;
           }
+
          .outlineToC:hover {
-            height: 15em;
+            height: 16em;
           }
+
           .outlineToC > ul {
             text-align: center;
             padding: 0;
           }
+
           .outlineToC > ul > li {
             list-style: none;
           }
+
           .outlineToC > ul > li > a {
             display: block;
             font-size: 12px;
             font-weight: 500;
             color: #dddea4;
           }
+
           .outlineToC > h6 {
             color: white;
             text-align: center;
@@ -147,11 +189,13 @@
             line-height: 1.5em;
           }
         }
+
     /* Keep ToC on Page */
         .toc {
           position: sticky;
           top: 65px;
         }
+
     /* offset for Fixed Navbar - This should be fixed */
     h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
         display: block;
@@ -161,35 +205,61 @@
         visibility: hidden;
     }
 /* End ToC CSS */
+
 /* Start Table CSS */
       .tablecenter {
         margin-left: auto;
         margin-right: auto;
+        width: 90%;
       }
-      table, th, td {border: 1px solid black;}
-      tr:nth-child(even) {background: #cccccc;}
+
+        @media (max-width: 768px) {
+          .tablecenter {
+            max-width: 95%;
+          }
+        }
+
+      table, th, td {
+        border: 1px solid black;
+        font-size: .7rem;
+      }
+
+      tr:nth-child(even) {
+        background: #cccccc;
+      }
+
       tr:nth-child(odd) {
-        color: black;
-        background: #a8a8a8;
+        background-color: #a8a8a8;
       }
+
       th, td {
         padding: 8px;
-        text-align: center; }
+        text-align: center
+      }
+
       th {
         text-align: center;
         border: 1px solid white;
         background-color: black;
-        color: white; }
+        color: white;
+      }
 /* end Table CSS */
+
 /* custom Scroll Bar */
     * {
       scrollbar-width: thin;
-      scrollbar-color: #feffb8c7 #343a40;}
+      scrollbar-color: #feffb8c7 #343a40;
+    }
     /* Works on Chrome/Edge/Safari */
-    *::-webkit-scrollbar {width: 10px;}
-    *::-webkit-scrollbar-track {background: #343a40;}
+    *::-webkit-scrollbar {
+      width: 10px;
+    }
+    *::-webkit-scrollbar-track {
+      background: #343a40;
+    }
     *::-webkit-scrollbar-thumb {
       background-color: #feffb8c7;
       border-radius: 10px;
-      border: 3px solid #343a40;}
+      border: 3px solid #343a40;
+    }
 /* End Scroll Bar */

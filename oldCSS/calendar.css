@@ -1,4 +1,5 @@
 /* Start Navbar CSS */
+    
     .gnavbar {
       position: fixed;
       top: 0px;
@@ -6,29 +7,36 @@
       max-width: 1160px;
       padding: 0px 3%;
     }
-      /* media call for Navbar */
-      @media (max-width: 768px) {
-        .gnavbar {
-         padding: 0px;
-         z-index: 2;
-        }
+
+    /* media call for Navbar */
+    @media (max-width: 768px) {
+      .gnavbar {
+       padding: 0px;
+       z-index: 2;
       }
+    }
+
    .bg-steel { background-color: #5F788A;}
    .site-header .navbar-nav .nav-link { color: #cbd5db;}
    .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
    .site-header .navbar-nav .nav-link.active { font-weight: 500;}
 
-    #nav {margin: 10px 0 0 0; }
+    #nav {
+      margin: 10px 0 0 0;
+    }
+
     #nav ul {
       list-style-type: none;
       margin: 0px;
       overflow: hidden;
       padding: 0px
     }
+
     #nav li {
       float: left;
       margin-left: 15px;
     }
+
     #nav li a {
       display: block;
       text-align: center;
@@ -36,11 +44,35 @@
       font-size: 18px;
       font-weight: bold;
       color: #a8a8a8;
-    }   
+    }
+    
+        /* media calls for Nav buttons */  
+        @media (max-width: 768px) {
+          #nav li a {
+            padding: 4px 8px;
+            font-size: 12px;
+          }
+
+          #nav li {
+            margin-left: 10px;
+          }
+        }
+
+    @media (max-width: 550px) {
+      #nav li a {
+        padding: 2px 4px;
+        font-size: 8px;
+      }
+
+      #nav li {
+        margin-left: 5px;
+      }
+    }
     #nav a {
       border: 2px solid #694d95;
       border-radius: 7px;
     }
+
     #nav a.frostfall:hover { border: 2px solid #d9e2f3;}
     #nav a.bloom:hover { border: 2px solid #e6ffcd;}
     #nav a.soltine:hover { border: 2px solid #89ce71;}
@@ -58,26 +90,11 @@
     .float_center > .float_child {
       position: relative;
       left: 50%;
-    }    
-        
-        /* media calls for Nav buttons */  
-        @media (max-width: 768px) {
-          #nav li a {
-            padding: 4px 8px;
-            font-size: 12px;
-          }
-          #nav li {margin-left: 10px; }
-        }
-
-        @media (max-width: 550px) {
-          #nav li a {
-            padding: 2px 4px;
-            font-size: 8px;
-          }
-          #nav li {margin-left: 5px; }
-        }
+    }
 /* End Navbar CSS*/
+
 /* Start Grid CSS */
+
     .gridContainer {
       height: 100vh;
       width: 100vw;
@@ -90,10 +107,12 @@
       max-width: 1160px;
       margin: auto;
     }
+
     .gheader {
       grid-area: gheader;
       margin-bottom: 1.5rem;
     }
+
     .gbody {
       grid-area: gbody;
       display: grid;
@@ -101,9 +120,13 @@
       'gcontent gcontent gcontent'
       'gcontent gcontent gcontent'
     }
+
     .gcontent { grid-area: gcontent;}
+
 /* End Grid CSS */
+
 /* Start body CSS */
+
     body {
       height: 100vh;
       max-width: 1160px;
@@ -112,6 +135,7 @@
       overflow-x: hidden;
       margin: auto;
     }
+
     img {
      max-width: 100%;
      height: auto;
@@ -119,36 +143,51 @@
      margin-left: auto;
      margin-right: auto;
     }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #dddea4;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    .newyear {
+      text-align: center;
+      border: 3px solid #dddea4;
+      padding: 1%;
+    }
+
+/* media call for formatting */
+    @media (max-width: 768px) {
+      body {
+        font-size: .8rem;
+      }
+    }
+
     p {
       color: #a8a8a8;
       padding: 0 0 20px 20px;
       max-width: 80%;
       margin: auto;
     }
-    h1, h2, h3, h4, h5, h6 {
-      color: #dddea4;
+
+    @media (max-width: 768px) {
+      p {
+        max-width: 90%;
+      }
     }
-    h1 {
-      text-align: center;
-      font-weight: bolder;
-    }
-    .newyear {
-      text-align: center;
-      border: 3px solid #dddea4;
-      padding: 1%;
-    }
-    /* media call for formatting */
-        @media (max-width: 768px) {
-          body {font-size: .8rem; }
-          p {max-width: 90%; }
-        }
+
 /* start table CSS */
+
   table > tbody > tr > td {
     text-align: right;
     font-size: 10px;
     padding: 4px;
     border: 1px solid black;
   }
+
   table {
     border: 2px solid white;
     table-layout: fixed;
@@ -156,6 +195,7 @@
     margin-right:auto;
     margin-bottom: 3rem;
   }
+
   table.frostfall > tbody > tr:nth-child(odd) { background: #d9e2f3;}
   h1.frostfall { color: #d9e2f3;}
 
@@ -171,10 +211,12 @@
   table > tbody > tr:nth-child(even) {
     background: #d7d7d7;
   }
+
   table > tbody > tr:nth-child(odd) > td {
     height: 1rem;
     width: 6rem;
   }
+
   table > tbody > tr:nth-child(even) > td {
     height: 5rem;
     text-align: left;
@@ -182,25 +224,31 @@
     font-size: .7rem;
   }
 
-    /* media call for tables */
-      @media (max-width: 768px) {
-        table > tbody > tr:nth-child(odd) > td {
-          font-size: .3rem;
-        }
-        table > tbody > tr:nth-child(even) > td {
-          font-size: .4rem;
-          height: 2rem;
-        }
-      }
+/* media call for tables */
+  @media (max-width: 768px) {
+    table > tbody > tr:nth-child(odd) > td {
+      font-size: .3rem;
+    }
+
+    table > tbody > tr:nth-child(even) > td {
+      font-size: .4rem;
+      height: 2rem;
+    }
+  }
 /* end table CSS */
+
 /* custom Scroll Bar */
     * {
       scrollbar-width: thin;
       scrollbar-color: #feffb8c7 #343a40;
     }
     /* Works on Chrome/Edge/Safari */
-    *::-webkit-scrollbar {width: 10px; }
-    *::-webkit-scrollbar-track {background: #343a40; }
+    *::-webkit-scrollbar {
+      width: 10px;
+    }
+    *::-webkit-scrollbar-track {
+      background: #343a40;
+    }
     *::-webkit-scrollbar-thumb {
       background-color: #feffb8c7;
       border-radius: 10px;
