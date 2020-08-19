@@ -95,12 +95,9 @@
       color: #a8a8a8;
       padding-left: 20px;
     }
-    .p-h5 {
-      padding-left: 30px;
-    }
-    h5 > p {
-      padding-left:30px;
-    }
+    h5 + p { padding-left:30px;}
+    h6 + p { padding-left:30px;}
+
     /* media call for formatting */
     @media (max-width: 768px) {
       body { font-size: .8rem;}
