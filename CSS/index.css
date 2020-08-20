@@ -10,6 +10,7 @@
       font-weight: bold;
       color: #a8a8a8;
       border: 3px solid #694d95;
+      text-decoration: none;
     }
 
         /* media calls for Nav buttons */
@@ -17,16 +18,16 @@
           #nav li a {font-size: 1rem; }
         }
         @media (max-width: 500px) {
-          #nav ul {padding: 0px 3rem 0x 3rem; }
-          #nav li a {padding: 3rem; }
+          #nav ul {padding: 0px 2.7rem 0x 2.7rem; }
+          #nav li a {padding: 2.7rem; }
         }
 
     #nav a.frostfall:hover { border: 2px solid #d9e2f3;}
-    #nav a.bloom:hover { border: 2px solid #e6ffcd;}
-    #nav a.soltine:hover { border: 2px solid #89ce71;}
-    #nav a.harvestide:hover { border: 2px solid #ffdcaf;}
-    #nav a.holidays:hover { border: 2px solid #f93434;}
-    #nav a.reference:hover { border: 2px solid #6117d7;}
+    #nav a.bloom:hover { border: 2px solid #d9e2f3;}
+    #nav a.soltine:hover { border: 2px solid #d9e2f3;}
+    #nav a.harvestide:hover { border: 2px solid #d9e2f3;}
+    #nav a.holidays:hover { border: 2px solid #d9e2f3;}
+    #nav a.reference:hover { border: 2px solid #d9e2f3;}
 /* End Navbar CSS */
 
 /* Start Grid CSS */
@@ -72,31 +73,31 @@
     .grules { grid-area: grules;}
     .grules li {
       background-image: url(../Images/index-rules.png);
-      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
     }
     .gchar { grid-area: gchar;}
     .gchar li {
       background-image: url(../Images/index-character.png);
-      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
     }
     .gpanth { grid-area: gpanth;}
     .gpanth li {
       background-image: url(../Images/index-pantheon.png);
-      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
     }
     .gcal { grid-area: gcal;}
     .gcal li {
       background-image: url(../Images/index-calendar.png);
-      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
     }
     .gtools { grid-area: gtools;}
     .gtools li {
       background-image: url(../Images/index-tools.png);
-      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
     }
 /* End Grid CSS */
