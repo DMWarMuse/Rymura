@@ -71,19 +71,34 @@
     }
     .grules { grid-area: grules;}
     .grules li {
-      background-image: url(../Images/rules.png);
+      background-image: url(../Images/index-rules.png);
       background-size: cover;
       background-repeat: no-repeat;
     }
     .gchar { grid-area: gchar;}
+    .gchar li {
+      background-image: url(../Images/index-character.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     .gpanth { grid-area: gpanth;}
+    .gpanth li {
+      background-image: url(../Images/index-pantheon.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     .gcal { grid-area: gcal;}
     .gcal li {
-      background-image: url(../Images/calendar.png);
+      background-image: url(../Images/index-calendar.png);
       background-size: cover;
       background-repeat: no-repeat;
     }
     .gtools { grid-area: gtools;}
+    .gtools li {
+      background-image: url(../Images/index-tools.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 /* End Grid CSS */
 /* Start body CSS */
     img {padding-bottom: 1rem; }
