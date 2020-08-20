@@ -12,6 +12,9 @@
     h5 {
       padding: 0px;
     }
+    h5 + p {
+      padding-left: 0;
+    }
     p {
       color: #a8a8a8;
       padding: 0 0 20px 0;

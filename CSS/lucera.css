@@ -1,3 +1,11 @@
 @media (max-width: 600px) {
  .outlineToC:hover {height: 11em; }
 }
+
+table, th, td {
+    font-size: small;
+}
+
+th, td {
+    padding: 6px;
+}
