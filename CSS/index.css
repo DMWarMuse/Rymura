@@ -36,7 +36,8 @@
       grid-template-areas:
       'gheader gheader gheader'
       'gterrim grules gchar'
-      'gpanth gcal gtools';
+      'gpanth gcal glucera'
+      '. gtools .';
       grid-gap: 0px;
     }
 
@@ -46,7 +47,8 @@
             'gheader gheader'
             'gterrim grules'
             'gchar gpanth'
-            'gcal gtools';
+            'gcal glucera'
+            'gtools .';
           }
         }
         @media (max-width: 500px) {
@@ -58,7 +60,9 @@
               'gchar'
               'gpanth'
               'gcal'
-              'gtools';
+              'glucera'
+              'gtools'
+              '.';
             }
         }
 
@@ -91,6 +95,12 @@
     .gcal { grid-area: gcal;}
     .gcal li {
       background-image: url(../Images/index-calendar.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .glucera { grid-area: glucera;}
+    .glucera li {
+      background-image: url(../Images/index-lucera.png);
       background-position: center;
       background-repeat: no-repeat;
     }

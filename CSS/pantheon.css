@@ -58,7 +58,7 @@
 
       /* Media call for table */
       @media (max-width: 768px) {
-        tr {font-size: .65rem; }
+        table, th, td {font-size: .65rem;}
       }
 
       /* start extraplaner table CSS */
