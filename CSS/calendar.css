@@ -36,7 +36,7 @@
       font-size: 18px;
       font-weight: bold;
       color: #a8a8a8;
-    }   
+    }
     #nav a {
       border: 2px solid #694d95;
       border-radius: 7px;
@@ -58,9 +58,9 @@
     .float_center > .float_child {
       position: relative;
       left: 50%;
-    }    
-        
-        /* media calls for Nav buttons */  
+    }
+
+        /* media calls for Nav buttons */
         @media (max-width: 768px) {
           #nav li a {
             padding: 4px 8px;
@@ -183,13 +183,14 @@
   }
 
     /* media call for tables */
-      @media (max-width: 768px) {
+      @media (max-width: 600px) {
         table > tbody > tr:nth-child(odd) > td {
           font-size: .3rem;
         }
         table > tbody > tr:nth-child(even) > td {
           font-size: .4rem;
           height: 2rem;
+          min-width: 2rem;
         }
       }
 /* end table CSS */

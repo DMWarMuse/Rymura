@@ -9,3 +9,10 @@ table, th, td {
 th, td {
     padding: 6px;
 }
+/* Start Table CSS */
+      table, th, td {font-size: .8rem;}
+        /* media call for formatting */
+        @media (max-width: 768px) {
+          table, th, td {font-size: .7rem;}
+        }
+/* end Table CSS */
