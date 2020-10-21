@@ -4,5 +4,3 @@
 		-skill level
 
 - Banana Meter
-
-crit rules
