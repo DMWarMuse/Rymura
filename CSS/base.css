@@ -101,6 +101,40 @@
     h5 + p { padding-left:30px;}
     h6 + p { padding-left:30px;}
 
+    /* Info icon with hover */
+    sup {
+      color: #694d95;
+      font-weight: bolder;
+      position: relative;
+    }
+    sup span {
+      visibility: visible;
+      opacity: 0;
+      position: absolute;
+      bottom: -25px;
+      left: 0;
+      text-align: center;
+      padding: 25px;
+      width: 1000;
+      height: auto;
+      color: #694d95;
+      transition-duration: 0.5s; /** Animation duration **/
+      transition-property: opacity; /** Apply animation only on opacity rule **/
+      /** Compatibility with other Browsers */
+      -moz-transition-duration: 0.5s;
+      -moz-transition-property: opacity;
+      -o-transition-duration: 0.5s;
+      -o-transition-property: opacity;
+      -ms-transition-duration: 0.5s;
+      -ms-transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -webkit-transition-property: opacity;
+    }
+    sup:hover span {
+      visibility: visible;
+      opacity: 1;
+    }
+
     /* media call for formatting */
     @media (max-width: 768px) {
       body { font-size: .8rem;}
