@@ -33,9 +33,17 @@
       }
       th {
         background-color: #ececec;
-        text-align: inherit;
         padding: 1px;
       }
+      th:first-child {
+        width: 40%;
+        text-align: left;
+      }
+      th:nth-child(3n) {
+        text-align: right;
+        width: 30%;
+      }
+
       tr {
         font-size: 14px;
       }
@@ -48,7 +56,7 @@
         text-align: center;
       }
       td:first-child {
-        width: 50%;
+        width: 40%;
         text-align: left;
       }
       td:nth-child(3n) {
