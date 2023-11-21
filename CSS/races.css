@@ -18,6 +18,14 @@ strong {
     color: #ccccbc;
 }
 
+h3 {
+    padding-left: 40px;
+}
+
+h3 + p {
+    padding-left: 40px;
+}
+
 /* Start Table CSS */
       table, th, td {font-size: .8rem;}
         /* media call for formatting */
