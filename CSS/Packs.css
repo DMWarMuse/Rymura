@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+ .outlineToC:hover {height: 11em; }
+}
+
+table {
+    float: left;
+}
+table, th, td {
+    font-size: small;
+}
+
+th, td {
+    padding: 6px;
+}
+/* Start Table CSS */
+      table, th, td {font-size: .8rem;}
+        /* media call for formatting */
+        @media (max-width: 768px) {
+          table, th, td {font-size: .7rem;}
+        }
+/* end Table CSS */
