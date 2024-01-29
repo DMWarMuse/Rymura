@@ -65,182 +65,199 @@
     <div class="gbody">
 
       <div class="gcontent">
-        <table>
-          <th>Theives Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>set of dark clothing</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>3 x Thieving Gear</td><td>?</td></tr>
-          <tr><td>2 x Dungeoneering Gear</td><td>?</td></tr>
-          <tr><td>1 x Adventuring Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>50ft hempen rope</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
+        
+        <p> Select Pack: 
+          <select name="packs" id="packs">
+            <option>Choose...</option>
+            <option value="basicpack">Basic Pack</option>
+            <option value="thievespack">Thieves Pack</option>
+            <option value="espionagepack">Espionage Pack</option>
+            <option value="diplomatspack">Diplomats Pack</option>
+            <option value="dungeoneeringpack">Dungeoneering Pack</option>
+            <option value="entertainerspack">Entertainers Pack</option>
+            <option value="explorerspack">Explorers Pack</option>
+            <option value="priestspack">Priests Pack</option>
+            <option value="scholarspack">Scholars Pack</option>
+          </select>
+        </p>
+        
+        <div class="packstable">
+          <table id="thievespack" class="drop-down-show-hide">
+            <th>Theives Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>set of dark clothing</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>3 x Thieving Gear</td><td>?</td></tr>
+            <tr><td>2 x Dungeoneering Gear</td><td>?</td></tr>
+            <tr><td>1 x Adventuring Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>50ft hempen rope</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
+          
+          <table id="espionagepack" class="drop-down-show-hide">
+            <th>Espionage Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>set of dark clothing</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>3 x Thieving Gear</td><td>?</td></tr>
+            <tr><td>2 x Acedemics Gear</td><td>?</td></tr>
+            <tr><td>1 x Mystic Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>50ft hempen rope</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
 
-        <table>
-          <th>Espionage Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>set of dark clothing</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>3 x Thieving Gear</td><td>?</td></tr>
-          <tr><td>2 x Acedemics Gear</td><td>?</td></tr>
-          <tr><td>1 x Mystic Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>50ft hempen rope</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
+          <table id="diplomatspack" class="drop-down-show-hide">
+            <th>Diplomat's Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>set of fine clothing</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>Signet Ring</td><td>1</td></tr>
+            <tr><td>4 x Acedemics Gear</td><td>?</td></tr>
+            <tr><td>2 x Adventuring Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
 
-        <table>
-          <th>Diplomat's Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>set of fine clothing</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>Signet Ring</td><td>1</td></tr>
-          <tr><td>4 x Acedemics Gear</td><td>?</td></tr>
-          <tr><td>2 x Adventuring Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
+          <table id="dungeoneeringpack" class="drop-down-show-hide">
+            <th>Dungeoneering Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>set of common clothing</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>4 x Dungeoneering Gear</td><td>?</td></tr>
+            <tr><td>2 x Adventuring Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>50ft hempen rope</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
 
-        <table>
-          <th>Dungeoneering Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>set of common clothing</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>4 x Dungeoneering Gear</td><td>?</td></tr>
-          <tr><td>2 x Adventuring Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>50ft hempen rope</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
+          <table id="entertainerspack" class="drop-down-show-hide">
+            <th>Entertainer's Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>2 costume sets</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>3 x Adventuring Gear</td><td>?</td></tr>
+            <tr><td>2 x Acedemics Gear</td><td>?</td></tr>
+            <tr><td>1 x Thieving Gear</td><td>?</td></tr>
+            <tr><td>1 x Mystic Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
 
-        <table>
-          <th>Entertainer's Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>2 costume sets</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>3 x Adventuring Gear</td><td>?</td></tr>
-          <tr><td>2 x Acedemics Gear</td><td>?</td></tr>
-          <tr><td>1 x Thieving Gear</td><td>?</td></tr>
-          <tr><td>1 x Mystic Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
+          <table id="explorerspack" class="drop-down-show-hide">
+            <th>Explorer's Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>set of common clothing</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>4 x Adventuring Gear</td><td>?</td></tr>
+            <tr><td>2 x Dungeoneering Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>50ft hempen rope</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
 
-        <table>
-          <th>Explorer's Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>set of common clothing</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>4 x Adventuring Gear</td><td>?</td></tr>
-          <tr><td>2 x Dungeoneering Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>50ft hempen rope</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
+          <table id="priestspack" class="drop-down-show-hide">
+            <th>Priest's Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>priest vestments</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>2 vials of holy water</td><td>1</td></tr>
+            <tr><td>3 x Mystic Gear</td><td>?</td></tr>
+            <tr><td>3 x Acedemics Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
 
-        <table>
-          <th>Priest's Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>priest vestments</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>2 vials of holy water</td><td>1</td></tr>
-          <tr><td>3 x Mystic Gear</td><td>?</td></tr>
-          <tr><td>3 x Acedemics Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
+          <table id="scholarspack" class="drop-down-show-hide">
+            <th>Scholar's Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>set of fine clothing</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>a book on ...</td><td>1</td></tr>
+            <tr><td>journal with previous notes</td><td>1</td></tr>
+            <tr><td>4 x Acedemics Gear</td><td>?</td></tr>
+            <tr><td>2 x Adventuring Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
 
-        <table>
-          <th>Scholar's Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>set of fine clothing</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>a book on ...</td><td>1</td></tr>
-          <tr><td>journal with previous notes</td><td>1</td></tr>
-          <tr><td>4 x Acedemics Gear</td><td>?</td></tr>
-          <tr><td>2 x Adventuring Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
-
-        <table>
-          <th>Basic Pack</th><th>Weight</th>
-          <tr><td>Backpack</td><td>3</td></tr>
-          <tr><td>In Pack</td><td>--</td></tr>
-          <tr><td>set of common clothing</td><td>1</td></tr>
-          <tr><td>candle x5</td><td>1</td></tr>
-          <tr><td>rations</td><td>1</td></tr>
-          <tr><td>mess kit</td><td>1</td></tr>
-          <tr><td>tinderbox</td><td>1</td></tr>
-          <tr><td>3 x Adventuring Gear</td><td>?</td></tr>
-          <tr><td>2 x Dungeoneering Gear</td><td>?</td></tr>
-          <tr><td>1 x Thieving Gear</td><td>?</td></tr>
-          <tr><td>1 x Kit or Tool</td><td>?</td></tr>
-          <tr><td>On pack</td><td>--</td></tr>
-          <tr><td>Bedroll</td><td>1</td></tr>
-          <tr><td>Waterskin</td><td>1</td></tr>
-          <tr><td>50ft hempen rope</td><td>1</td></tr>
-          <tr><td>1 x Light Source</td><td>?</td></tr>
-        </table>
-
+          <table id="basicpack" class="drop-down-show-hide">
+            <th>Basic Pack</th><th>Weight</th>
+            <tr><td>Backpack</td><td>3</td></tr>
+            <tr><td>In Pack</td><td>--</td></tr>
+            <tr><td>set of common clothing</td><td>1</td></tr>
+            <tr><td>candle x5</td><td>1</td></tr>
+            <tr><td>rations</td><td>1</td></tr>
+            <tr><td>mess kit</td><td>1</td></tr>
+            <tr><td>tinderbox</td><td>1</td></tr>
+            <tr><td>3 x Adventuring Gear</td><td>?</td></tr>
+            <tr><td>2 x Dungeoneering Gear</td><td>?</td></tr>
+            <tr><td>1 x Thieving Gear</td><td>?</td></tr>
+            <tr><td>1 x Kit or Tool</td><td>?</td></tr>
+            <tr><td>On pack</td><td>--</td></tr>
+            <tr><td>Bedroll</td><td>1</td></tr>
+            <tr><td>Waterskin</td><td>1</td></tr>
+            <tr><td>50ft hempen rope</td><td>1</td></tr>
+            <tr><td>1 x Light Source</td><td>?</td></tr>
+          </table>
+      </div>
         <table>
           <th>Adventuring Gear</th><th>Weight</th>
           <tr><td>5 Candles</td><td>3</td></tr>
@@ -377,5 +394,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+        <!-- Show Hide JS -->
+    <script src="../../js/packs.js"></script>
     </body>
 </html>
