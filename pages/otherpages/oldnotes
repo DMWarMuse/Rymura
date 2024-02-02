@@ -1,0 +1,131 @@
+ <!-- <h2>Movement and Swimming</h2>
+                <h5>Movement</h5>
+                <p>A character may only dash once per round, regardless of the source of the dash.<br><br>For example, a rogue may move, attack, and bonus action dash, but may not move, bonus action dash, action dash.<br><br>Expeditious Retreat is the exception to this and permits one additional dash. Haste already increases your speed, so it does not allow any additional dashes.</p>
+
+        <h5>Swimming</h5>
+        <p>Swimming is heavily impacted by encumbrance. A character may swim normally as long as they are carrying weight less than or equal to five times their strength score. If a character has more weight on them than five times their strength score, they swim 5ft per round and must sink.
+            <br><br>≤ Strx5 | Normal swimming
+            They may tread water if they have weight greater than three times their strength score, but less than or equal to five times their strength score.
+            <br>≤ Strx5 | Tread water
+            <br>> Strx5 | Swim 5ft, only sink</p>
+        -->
+
+         <!-- <h2>Previous Edition Spells</h2>
+            <p>Spells from previous editions (4e, 3e, 2e, etc.) are allowed, encouraged, and may even be used by enemies.  Previous edition spells require DM approval, and they will need to be converted to 5e.</p>
+          -->
+
+
+          <!--
+
+          <h2 data-toc-text="Identify Spell">Changes to the Identify Spell</h2>
+            <p>Discovering a magic item and learning its use(s) is no easy task.  A short/long rest with the item in your possession may no longer reveal how a magic item works.  You may need to rely on experimentation and the Identify spell (changes below).</p>
+
+            <p><b>Identify:</b>
+            <p>Identify casting time is now 1 hour.</p>
+              <p>During this time you become perfectly still and enter a trance like state. At the end of the hour you will gleam information on how the magics in the item(s) are arranged, including its schools, and a vauge idea on how the item might be used.  Some experimenting may be needed to test your theory depending on the power level of the magic item.</p>
+              <p>Learning what spells are affecting a <i>creature</i> takes the RAW 1 minute.</p>
+
+          -->
+
+          <!--The DM will roll a percentile die, in secret, to determine if the god you cry out to agrees to help.  -->
+
+        <!-- <p>Crossbow does not require a proficiency slot to use.</p> -->+
+
+                <!--
+        <h2>Total Defense</h2>
+        <p>Your character concentrates on taking as little damage as possible and takes a defensive stance, either using your weapons to parry incoming attacks, or hiding behind your shield.  When you take this action you cannot move or use Reactions or Bonus Actions, but you gain +4 to AC until the start of your next turn.</p>
+        <h2>Charging</h2>
+        <p>Charging is a special full-round action that allows you to move up to twice your speed and perform a melee attack in the same round. However, it carries tight restrictions on how you can move.</p>
+        <h5>Movement During a Charge</h5>
+        <p>You must move before your attack, not after. You must move at least 30 feet directly toward the designated opponent.  You give up any remaining movement after the attack is made.</p>
+        <h5>Attacking on a Charge</h5>
+        <p>After moving, you may take your melee attack action. You get Advantage to the attack rolls, but take a –2 penalty to your AC until the start of your next turn.<br><br>
+        A charging character gets a +5 bonus to Strength checks made to bull rush an opponent (Knock Prone or Knock Back).</p>
+        <h5>Lances and Charge Attacks</h5>
+        <p>A lance, spear, or trident deals double damage if employed by a mounted character in a charge.</p>
+        -->
+
+        <!-- <h2>Firing into Melee</h2>
+        <p>When firing at an opponent that is engaged in a melee, there is a chance of hitting the wrong target.</p>
+        <p>There is a 5% chance of hitting an adjacent creature of a the same size or a size larger.  Roll your attack as normal, and then roll a 1d20, on a 1 the attack hits the adjacent target.  If more than one creature is adjacent to your target, multiply the chance to hit accordingly.</p>
+        <p>Example:  Your party members (an elf rouge, and a human fighter) are engaged with a Hobgoblin and an Ogre.  The Elf is on the left side of the Hobgoblin, the Human in front of the Hobgoblin, and the Ogre is on the right side of the Hobgoblin. Your target, the Hobgoblin, is engaged in a melee with 3 other creatures.  Your chance to miss your target and hit a different creature is 15% (Medium Elf +5%, Medium Human +5%, Large Ogre +5%).  Roll a 1d20: 1 targets the Elf, 2 targets the Human, 3 targets ogre, 5-20 targets Hobgoblin (a hit depends on AC).</p>
+        <p>Ignore creatures smaller than the targets size when calculating miss chance.</p>
+        -->
+
+
+        <!--<h2>Called Shots</h2>
+        <p>Called Shots can be used to perform a difficult task for a mechanical or story reason, such as cutting off someone’s shield strap in the middle of battle, chopping off a minotaur horn that is impaling your companion, or shooting the rope on the bell tower from 300 feet away.</p>
+        <p>Called shots are allowed or denied at the discretion of the DM, and group, depending on practicality.</p>-->
+
+
+        <!--
+        <h2>Initiative Modifiers</h2>
+        <p>Weapons made of lightweight materials can be wielded slightly faster than their heavier Iron or Steel counterparts, this gives the wielder a small edge in combat.  Applies to primary weapons only.</p>
+        <p>Malachite = +1 to initiative.<br>Mithril = +1 to initiative.<br>Otataral = +2 to initiative.<br>Zardazik = +3 to initiative.</p>
+        -->
+
+        After all other creatures in the initiative order have gone, you may take your turn, this is your new position in the initiative order.  If a second character, or creature, delays their action, they then move to the bottom of the initiative order.
+
+        Flanking and
+        Flanking an opponent = +3 to hit.<br>
+
+         Hit Points and Hit Dice counts are maxed, all Spell Slots refresh.</p>
+
+         <p>Spell Slots now come back after a <b>Full Rest</b>. Classes that allow you to regain spell slots on a Short Rest instead regain spell slots on a Long Rest (i.e. Warlock).</p>
+
+         depending on their level (see table).<!--spend up to a number of Hit Dice equal to half of their level (rounded up)-->
+
+          The PC recovers a number of spent Hit Dice depending on their level (see table).<br>
+        The PC recovers Hit Points equal to their characters Level + CON (minimum 1).<br>
+        A spellcasting PC regains 1 expended spell slot of their choice, Warlocks regain all spell slots.
+
+        :<br>Warlocks regain 1 spell slot.<br>All players can spend up to a number of Hit Dice depending on their level (see table).
+
+                <div style="padding-bottom: 10px;">
+          <table class="tablecenter">
+            <tr><th>Player Level</th><th>HD Useable on Short/Long Rests<br>HD/SS Recovered on Long Rest</th></tr>
+            <tr><td><b>1 - 3</b></td><td>1</td></tr>
+            <tr><td><b>4 - 6</b></td><td>2</td></tr>
+            <tr><td><b>7 - 10</b></td><td>3</td></tr>
+            <tr><td><b>11 - 14</b></td><td>4</td></tr>
+            <tr><td><b>15 - 20</b></td><td>5</td></tr>
+          </table>
+        </div>
+
+        <!--During a Long Rest, a character proficient in, and in possession of, an Herbalism Kit may tend up to a number of characters (including themselves) equal to their WIS modifier. Each tended player regains Hit Points equal to their characters CON modifier (minimum 1) at the end of the Long Rest.-->
+
+
+        <h1>Death and Unconsciousness</h1>
+        <h2>Reduced to 0 HP</h2>
+        <p>If you are reduced to 0 hit points during combat and are then brought back above 0 by any method other than a spell of level 1 or higher, gain 1 level of exhaustion.<br><br>
+        These effects are cumulative, if you are brought back up by a healing potion, knocked unconscious again, then brought back up by another healing potion, you would have gained 2 levels of exhaustion.  If you would gain your 6<sup style="color: #a8a8a8;">th</sup> level of exhaustion in this manner, you are instead considered stabilized and will awake in 2d4 hours.  When you awake, you will have 4 levels of exhaustion remaining.<br><br>
+        One level of exhaustion is removed after a long rest.</p>
+        <h2>Death and Resurrection</h2>
+        <p>If your character has died and is brought back within 60 seconds gain 2 levels of exhaustion.<br><br>
+        These effects are cumulative, if your character dies again, and is revived within 60 seconds, you would incur 2 more levels of exhaustion.  If you would gain your 6<sup style="color: #a8a8a8;">th</sup> level of exhaustion in this manner, you are instead considered stabilized and will awake in 2d4 hours.  When you awake, you will have 4 levels of exhaustion remaining.<br><br></p>
+
+
+                    <li><a href="#death-and-unconsciousness">Death and Unconsciousness</a></li>
+
+
+        System Strain accumulation examples:
+        Potions (including Healing): +1
+        Hit Die (with Use): +1
+        Exhaution: +1 per level (removed when exhaustion is removed)
+        Unconsciousness (0HP): +5
+        Death and Ressurection (+10)
+        Healing Magic: +1, or + the amount equal to the casted spell slot
+
+        DM's Discrection:
+        Failing Certain saving throws (Trauma): +1
+        fall damage: + amount equal to the number of d6's
+
+        Reducing System Strain:
+        Long Rest -1
+        Treatment with herbalism and or healers kit during a long rest -1
+        Full rest -5
+        hearty meal -1
+        Sleeping in a safe secure comfortable place -1
+        Proper Prayer -1
+        There are other wayts to reduce System STrain not listed, be it divine prayer or hearty meal
+
