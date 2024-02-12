@@ -109,23 +109,96 @@
 
 
 System Strain accumulation examples:
-Potions (including Healing): +1
-Hit Die (with Use): +1
-Exhaution: +1 per level (removed when exhaustion is removed)
-Unconsciousness (0HP): +5
-Death and Ressurection (+10)
-Healing Magic: +1, or + the amount equal to the casted spell slot
-
 DM's Discrection:
 Failing Certain saving throws (Trauma): +1
 fall damage: + amount equal to the number of d6's
 
 Reducing System Strain:
-Long Rest -1
-Treatment with herbalism and or healers kit during a long rest -1
-Full rest -5
-hearty meal -1
-Sleeping in a safe secure comfortable place -1
-Proper Prayer -1
 There are other wayts to reduce System STrain not listed, be it divine prayer or hearty meal
+
+old <h2>Encumbrance</h2>
+        <p>When using these rules, ignore the Strength column of the Armor table.<br><br>
+        If you carry weight in excess of 10 times your Strength score, you are encumbered: Your base walking speed is reduced by 5 feet. Saving throws that use Strength, Dexterity, or Constitution are made with disadvantage.<br><br>
+        If you carry weight in excess of 15 times your Strength score, you are instead over-encumbered: Your base walking speed is reduced by 15 feet. In addition, you have disadvantage on Ability Checks and Saving Throws that use Strength, Dexterity, or Constitution.<br><br>
+        If you carry weight in excess of 20 times your Strength score, your base walking speed is reduced by 15 feet. In addition, any Ability Checks or Saving Throws that use Strength, Dexterity, or Constitution automatically fail, and all Attack Rolls are made with disadvantage.</p>
+
+<p>All equipment must have a weight value.<br><br>When purchasing or using starting packs, break out each item and give it an appropriate weight value.</p>
+
+Other intelligent races are known to exist but are rare or have little contact with the civilized world.<br><br><!--They are generally found in the wilder places of the continents.<br><br> *Roleplaying as one of these races will affect how people treat and react to you, the more “human/humanoid” you look, the more “normal” the reaction from the general populace. For instance, if you play a Hobgoblin and go into a northern village, you will most likely be met with fear and hostility. In the South you may be treated with wonder and disbelief. I am not trying to discourage you from playing a race, just be prepared from a roleplay point of view.*<br><br>-->
+
+
+         Below is a list of preferred Common and Exotic races for a Rymuran campaign. These races have stats and subraces that differ from the default setting. If you would like to play a race or use a feature that has been changed, or isn't listed, please let me know and I will work with you.</p>
+
+
+            <h2 data-toc-skip>Preferred Races of Rymura</h2>
+            <div style="padding-bottom: 25px;">
+              <table class="tablecenter">
+                <tr><th>Race Type</th><th>Listed by population size</th></tr>
+                <tr><td>Common</td><td>Human<br>&#x2022; Standard<br>&#x2022; Variant<br>&#x2022; Teeque<br>
+                  <br>Elf<br>&#x2022; Holdanathe<br>&#x2022; Holmnaithe<br>&#x2022; Myrknaithe<br>
+                  <br>Dwarf<br>&#x2022; Line of Belgrieg<br>&#x2022; Line of Drome<br>&#x2022; Line of Frost<br>&#x2022; Line of Gronbauch<br>
+                  <br>Halfling<br>&#x2022; Blackbriar<br>&#x2022; Dauntless<br>&#x2022; Lightfoot<br>&#x2022; Gnomeling<br>&#x2022; Teeque<br>
+                  <br>Half-Elf<br>
+                  <br>Gnome<br>&#x2022; House of Garl<br>&#x2022; House of Callurdan<br>&#x2022; Gnomeling</td></tr>
+                <tr><td>Exotic</td><td>Goliath<br>
+                  <br>Firbolg<br>&#x2022; Dubh Catha<br>&#x2022; Preserver<br><br>Half-Orc</td></tr>
+                <tr><td>Modifiers</td><td>These modify your chosen race, replacing the original features with their own set<br>
+                  <br>Elemental Touched (Genasi)<br>&#x2022; Air<br>&#x2022; Earth<br>&#x2022; Flame<br>&#x2022; Water<br>
+                  <br>Undead<br>&#x2022; Ghoul<br>&#x2022; Revenant<br>&#x2022; Vampire Thrall<br>
+                  <br>Demon Touched (Tiefling)<br>&#x2022; Devil<br>&#x2022; Demon<br>&#x2022; Hag</td></tr>
+              </table>
+            </div>
+
+
+
+            <!--
+            <h1>Rymura Specific Subraces</h1>
+            <div style="padding-bottom: 25px;">
+              <table class="tablecenter">
+                <tr><th>Race</th><th>Subrace</th></tr>
+                <tr><td>Elf</td><td>Tarcian:<br>Militaristic subrace that live in the southern jungle of Rymura.<br><br>Tel'Na'Gren:<br>Naturistic elves that dwell in The Great Wode in eastern Rymura.<br><br>Aphos:<br>The Aphosian elves are more wild and savage than their cousins.  They reside in the Chokewood on the island of Bellamy. Most of the Aphosians have soul bonded with a creature of the Chokewood.<br><br> Shadowed Ones:<br>The Shadowed elves (not to be confused with the Drow), are a race of lost elves on the contienent of Lucera. These elves were cut off from the Feywild long ago, and have since been coopted and corupted by the Shadowfell.</td></tr>
+                <tr><td>Firbolg</td><td>Tradationalists:<br>Known as 'The Preservers', these Firbolgs life in small enclaves consisting of a couple dozen members. They tend the nearby forests and waters encouraging growth and health.<br><br>Dubh Catha's Firbolgs:<br>These Firbolgs have sworn off their peaceful ways and have become the arm of Dubh Catha on the Prime Material Plane. They are viscious in battle and are often seen leading packs of Darklings.</td></tr>
+                <tr><td>Orc/Half-Orc</td><td>Hasation Orcs:<br>This small clan of Orcs has been able to throw off their yoke to Grummish, and their inclination towards bloodlust. Taller and broader than their base cousins, this clan of Orcs now serves the goddess Vora. The other civilized races of Rymura view the Hasation clan as honorable and stalwart warriors. </td></tr>
+              </table>
+            </div>
+          -->
+
+
+If you play a class that has had a feature removed a different feature will be added to make up for it.<br><br>
+
+                <tr><td>Barbarian</td><td>Path of the Battlerager: No Race Restrictions</td></tr>
+                <!--
+                <tr><td>Bard</td><td>No Restrictions</td></tr>
+                <tr><td>Cleric</td><td>No Restrictions</td></tr>
+                <tr><td>Druid</td><td><s>Circle of Dreams</s></td></tr>
+                <tr><td>Fighter</td><td>No Restrictions</td></tr>
+                -->
+                <tr><td>Monk</td><td>Way of the Four Elements:<br>Ride the Wind: No level requirement: costs 1 Ki point, cast Jump instead of Fly.<!-- <br><br>Way of the Astral Self<br>Flurry of Healing and Harm: each strike costs 1 additional ki point--></td></tr>
+                <!--
+                <tr><td>Paladin</td><td>No Restrictions</td></tr>
+                <tr><td>Ranger</td><td>No Restrictions</td></tr>
+                <tr><td>Rogue</td><td>No Restrictions</td></tr>
+                <tr><td>Sorcerer</td><td>No Restrictions</td></tr>
+                <tr><td>Warlock</td><td>No Restrictions</td></tr>
+              -->
+                <tr><td>Wizard</td><td>School of Bladesinging: No Race Restrictions</td></tr>
+
+
+        <h1>Background Changes and Restrictions</h1>
+        <p>Please review the below list when selecting a Background for possible changes or restrictions.<br><br>Ignore any starting currency or gems your background grants.<br><br>Let the DM know if you decide to create your own background.</p>
+
+            <div style="padding-bottom: 25px;">
+              <table class="tablecenter">
+                <tr><th>Background</th><th>Restrictions</th></tr>
+                <tr><td>Outlander</td><td>no Wanderer feature</td></tr>
+                <tr><td>Faction Agent</td><td>Check with the DM for available Factions</td></tr>
+                <tr><td>Waterdhavian Noble</td><td>Only choose if Noble, needs to be reflavored.</td></tr>
+              </table>
+            </div>
+          -->
+
+                <tr><td>Orcish Fury</td><td>Applies only to melee weapons.</td></tr>
+
+
+
 
