@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" />
     <link rel="stylesheet" type="text/css" href="../../CSS/base.css">
-    <link rel="stylesheet" type="text/css" href="../../CSS/races.css">
+   <!-- <link rel="stylesheet" type="text/css" href="../../CSS/races.css"> -->
     <link rel="stylesheet" type="text/css" href="../../CSS/packs.css">
 
     <title>Rymura Gear and Packs</title>
@@ -46,42 +46,28 @@
       <header>
         <img src="../../Images/CoRbanner.png" alt="Chronicles of Rymura image" />
       </header>
-
-      <nav class="float_center" id="nav">
-        <ul class="float_child">
-          <li><a class="frostfall" href="#frostfall">Basic</a></li>
-          <li><a class="bloom" href="#bloom">Thieves</a></li>
-          <li><a class="soltine" href="#soltine">Espionage</a></li>
-          <li><a class="harvestide" href="#harvestide">Diplomats</a></li>
-          <li><a class="holidays" href="#holidays">Dungeoneers</a></li>
-          <li><a class="reference" href="#reference">Explorers</a></li>
-          <li><a class="reference" href="#reference">Priests</a></li>
-          <li><a class="reference" href="#reference">Scholars</a></li>
-          <li><a class="reference" href="#reference">Entertainers</a></li>
-        </ul>
-      </nav>
     </div>
 
     <div class="gbody">
-
       <div class="gcontent">
-        
-        <p> Select Pack: 
-          <select name="packs" id="packs">
-            <option>Choose...</option>
-            <option value="basicpack">Basic Pack</option>
-            <option value="thievespack">Thieves Pack</option>
-            <option value="espionagepack">Espionage Pack</option>
-            <option value="diplomatspack">Diplomats Pack</option>
-            <option value="dungeoneeringpack">Dungeoneering Pack</option>
-            <option value="entertainerspack">Entertainers Pack</option>
-            <option value="explorerspack">Explorers Pack</option>
-            <option value="priestspack">Priests Pack</option>
-            <option value="scholarspack">Scholars Pack</option>
-          </select>
-        </p>
-        
-        <div class="packstable">
+         
+          <p> Select a custom pack from the dropdown list below.  When an item says something ling "Dungeoneering Gear x3" that means you can select 3 items from the Dungeoneering gear list. You do not need to pick these items right away, you can wait until you need something. For instance: You find yourself in a dungeon and really need a crowbar to open a chest, you turn one of your Dungeering Gear's into a crowbar and add it to your pack with a weight, and its assumed that you have always had that item on your character. you have two dungeoneering items left to select when needed.<br><br>
+          Select Pack:
+            <select name="packs" id="packs">
+              <option>Choose...</option>
+              <option value="basicpack">Basic Pack</option>
+              <option value="thievespack">Thieves Pack</option>
+              <option value="espionagepack">Espionage Pack</option>
+              <option value="diplomatspack">Diplomats Pack</option>
+              <option value="dungeoneeringpack">Dungeoneering Pack</option>
+              <option value="entertainerspack">Entertainers Pack</option>
+              <option value="explorerspack">Explorers Pack</option>
+              <option value="priestspack">Priests Pack</option>
+              <option value="scholarspack">Scholars Pack</option>
+            </select>
+          </p>
+
+        <div class="packstable">               
           <table id="thievespack" class="drop-down-show-hide">
             <th>Theives Pack</th><th>Weight</th>
             <tr><td>Backpack</td><td>3</td></tr>

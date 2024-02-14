@@ -2,21 +2,32 @@
  .outlineToC:hover {height: 11em; }
 }
 
-table {
-    float: left;
-}
-table, th, td {
-    font-size: small;
+.packstable {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-th, td {
-    padding: 6px;
+.geartable {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 /* Start Table CSS */
-      table, th, td {font-size: .8rem;}
-        /* media call for formatting */
-        @media (max-width: 768px) {
-          table, th, td {font-size: .7rem;}
+    table {
+        margin: 0px 10px 10px 0px;
+    }
+
+    th, td {
+        padding: 0px 2px 0px 2px;
+        font-size: .8rem;
+    }
+
+/* media call for formatting */
+    @media (max-width: 768px) {
+      table, th, td {font-size: .7rem;}
         }
 /* end Table CSS */
 
