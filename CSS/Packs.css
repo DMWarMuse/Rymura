@@ -11,11 +11,14 @@
 .geartable {
     text-align: center;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-/* Start Table CSS */
+.drop-down-show-hide {
+    margin-right: 12%;
+}
+
+    /* Start Table CSS */
     table {
         margin: 0px 10px 10px 0px;
     }
@@ -25,9 +28,9 @@
         font-size: .8rem;
     }
 
-/* media call for formatting */
+    /* media call for formatting */
     @media (max-width: 768px) {
       table, th, td {font-size: .7rem;}
         }
-/* end Table CSS */
+    /* end Table CSS */
 
