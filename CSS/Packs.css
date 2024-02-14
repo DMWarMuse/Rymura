@@ -34,3 +34,50 @@
         }
     /* end Table CSS */
 
+#lightsource {
+    tr:nth-child(even) {background: #fffce3;}
+    tr:nth-child(odd) {background: #fff4a1;}
+}
+
+#mysticgear {
+    tr:nth-child(even) {background: #e3ffe8;}
+    tr:nth-child(odd) {background: #90fea4;}    
+}
+
+#thievesgear {
+    tr:nth-child(even) {background: #d2fffb;}
+    tr:nth-child(odd) {background: #90fef5;}    
+}
+
+#acedemicsgear {
+    tr:nth-child(even) {background: #ffe1ff;}
+    tr:nth-child(odd) {background: #ffb8fe;}    
+}
+
+#adventuringgear {
+    tr:nth-child(even) {background: #ffeded;}
+    tr:nth-child(odd) {background: #ffd0d0;}
+}
+
+#dungeoneeringgear {
+    tr:nth-child(even) {background: #fff6ed;}
+    tr:nth-child(odd) {background: #ffe8d0;}   
+}
+
+#kitsandtools {
+    tr:nth-child(even) {background: #ecf3ff;}
+    tr:nth-child(odd) {background: #d0e2ff;}       
+}
+
+#lightpick {background-color:#fffce3;}
+#mysticpick {background-color:#e3ffe8;}
+#thievespick {background-color:#d2fffb;}
+#acedemicspick {background-color:#ffe1ff;}
+#adventurepick {background-color:#ffeded;}
+#dungeoneeringpick {background-color:#fff6ed;}
+#kitpick {background-color:#ecf3ff;}
+
+
+
+
+
