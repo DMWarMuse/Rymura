@@ -36,22 +36,22 @@
 
 #lightsource {
     tr:nth-child(even) {background: #fffce3;}
-    tr:nth-child(odd) {background: #fff4a1;}
+    tr:nth-child(odd) {background: #fef7bf;}
 }
 
 #mysticgear {
     tr:nth-child(even) {background: #e3ffe8;}
-    tr:nth-child(odd) {background: #90fea4;}    
+    tr:nth-child(odd) {background: #beffca;}    
 }
 
 #thievesgear {
-    tr:nth-child(even) {background: #d2fffb;}
-    tr:nth-child(odd) {background: #90fef5;}    
+    tr:nth-child(even) {background: #ddfefb;}
+    tr:nth-child(odd) {background: #c1fffa;}    
 }
 
 #acedemicsgear {
-    tr:nth-child(even) {background: #ffe1ff;}
-    tr:nth-child(odd) {background: #ffb8fe;}    
+    tr:nth-child(even) {background: #fef2fd;}
+    tr:nth-child(odd) {background: #ffe4fe;}    
 }
 
 #adventuringgear {
