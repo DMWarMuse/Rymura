@@ -4,6 +4,10 @@
  .geartable {flex-wrap: wrap;}
 }
 
+h1 {
+    text-align: center;
+}
+
 .packstable {
     text-align: center;
     display: flex;
@@ -72,13 +76,13 @@
     tr:nth-child(odd) {background: #d0e2ff;}       
 }
 
-#lightpick {background-color:#fffce3;}
-#mysticpick {background-color:#e3ffe8;}
-#thievespick {background-color:#d2fffb;}
-#acedemicspick {background-color:#ffe1ff;}
-#adventurepick {background-color:#ffeded;}
-#dungeoneeringpick {background-color:#fff6ed;}
-#kitpick {background-color:#ecf3ff;}
+#lightpick {background-color:#fef7bf;}
+#mysticpick {background-color:#beffca;}
+#thievespick {background-color:#c1fffa;}
+#acedemicspick {background-color:#ffe4fe;}
+#adventurepick {background-color:#ffd0d0;}
+#dungeoneeringpick {background-color:#ffe8d0;}
+#kitpick {background-color:#d0e2ff;}
 
 
 
