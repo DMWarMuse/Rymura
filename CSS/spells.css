@@ -1,0 +1,123 @@
+li {
+    color: #a8a8a8;}
+h2 {
+    padding-left: 20px;}
+h2 + h4 {
+    padding-left: 40px;}
+h4 + p {
+    padding-left: 80px;}
+th {
+    border: 1px solid dimgray;
+    width: 33%;}
+td {
+    width: auto;}
+
+
+
+
+.navwrapper {
+    margin: 0 0 60px 0;
+}
+/* Start Navbar CSS */
+    .gnavbar {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      max-width: 1160px;
+      padding: 0px 3%;
+    }
+      /* media call for Navbar */
+      @media (max-width: 768px) {
+        .gnavbar {
+         padding: 0px;
+         z-index: 2;
+        }
+      }
+   .bg-steel { background-color: #5F788A;}
+   .site-header .navbar-nav .nav-link { color: #cbd5db;}
+   .site-header .navbar-nav .nav-link:hover { color: #ffffff;}
+   .site-header .navbar-nav .nav-link.active { font-weight: 500;}
+
+    #nav {margin: 10px 0 0 0; }
+    #nav ul {
+      list-style-type: none;
+      margin: 0px;
+      overflow: hidden;
+      padding: 0px
+    }
+    #nav li {
+      float: left;
+      margin-left: 15px;
+    }
+    #nav li a {
+      display: block;
+      text-align: center;
+      padding: 4px 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #a8a8a8;
+    }
+    #nav a {
+      border: 2px solid #694d95;
+      border-radius: 7px;
+    }
+    #nav a:hover { border: 2px solid #d9e2f3;}
+
+    /* The Magic Float Center Code */
+    .float_center {
+      float: right;
+      position: relative;
+      left: -50%; /* or right 50% */
+      text-align: left;
+    }
+    .float_center > .float_child {
+      position: relative;
+      left: 50%;
+    }
+
+        /* media calls for Nav buttons */
+        @media (max-width: 768px) {
+          #nav li a {
+            padding: 4px 8px;
+            font-size: 12px;
+          }
+          #nav li {margin-left: 10px; }
+        }
+
+        @media (max-width: 550px) {
+          #nav li a {
+            padding: 2px 4px;
+            font-size: 8px;
+          }
+          #nav li {margin-left: 5px; }
+        }
+/* End Navbar CSS*/
+
+/* custom Scroll Bar */
+    .timelinewrapper {
+      scrollbar-width: thin;
+      scrollbar-color: #4e3b6c36 #24282d00;}
+    /* Works on Chrome/Edge/Safari */
+    .timelinewrapper::-webkit-scrollbar {width: 10px;}
+    .timelinewrapper::-webkit-scrollbar-track {background: #24282d00;}
+    .timelinewrapper::-webkit-scrollbar-thumb {
+      background-color: #4e3b6c36;
+      border-radius: 10px;
+      border: 1px solid #343a40;}
+/* End Scroll Bar */
+
+/* Timeline Responsiveness 600 */
+@media (max-width: 600px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    .point {
+        min-width: 12px;
+        height: 12px;
+    }
+
+    .timeline::before {
+        left: 40%;
+    }
+}
