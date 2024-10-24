@@ -1,3 +1,32 @@
+ Removal of System Strain:
+         <h2>System Strain</h2>
+        <p>This is an optional rule. If you elect to follow this rule you gain the 'Durable' Feat.<br><br>
+          System Strain is a measure of how much stress the character's body is under, and to what degree it has been taxed by magical energies, hunger, privation, and forced healing.
+          <ul><li>A character's maximum System Strain is equal to their Constitution Score. Thus, a character with a Constitution Score of 13 could accumulate up to 13 points of System Strain before suffering adverse effects.</li>
+              <li>Most forms of healing, and certain other magical powers, add to a character's System Strain.</li>
+              <li>System Strain is usually lost by resting.</li>
+              <li>Non-natural (magical and potion) healing often adds to a target's System Strain. If a character is at, or over, their maximum System Strain, their body cannot handle the additional stresses and receives no benefit from the attempted healing.</li></ul></p>
+
+
+        <table class="tablecenter" style="font-size:0.8rem;">
+          <tr><th>Accumulation Examples (non-exhaustive)</th><th>Reduction Examples (non-exhaustive)</th></tr>
+          <tr><td>Potions (including Healing): +1</td><td>Long Rest: -1</td></tr>
+          <tr><td>Fall Damage per 10pts: +1</td><td>Treatment during a Long Rest: -1</td></tr>
+          <tr><td>Healing Magic: +1</td><td>Full Rest: -10</td></tr>
+          <tr><td>Exhaution Gain per level: +1</td><td>Hearty meal: -1</td></tr>
+          <tr><td>Unconsciousness (0HP): +5</td><td>Proper Prayer: -1</td></tr>
+          <tr><td>Death and Ressurection: +10</td><td>Sleeping in a safe and comfortable place: -1</td></tr>
+        </table>
+        <br>
+
+
+              Full rest: <li>Accumulated System Strain reduces by 10.</li>
+              Long Rest: <li>Accumulated System Strain reduces by 1.</li>
+              Bonuses: , and their Accumulated System Strain is reduced by 1
+              Frailtyy -> Magical healing and Natural healing swapped for penalty.
+
+
+
  <!-- <h2>Movement and Swimming</h2>
                 <h5>Movement</h5>
                 <p>A character may only dash once per round, regardless of the source of the dash.<br><br>For example, a rogue may move, attack, and bonus action dash, but may not move, bonus action dash, action dash.<br><br>Expeditious Retreat is the exception to this and permits one additional dash. Haste already increases your speed, so it does not allow any additional dashes.</p>
